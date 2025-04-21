@@ -116,4 +116,4 @@ This project is licensed under the [Apache 2.0 license](LICENSE).
 ```
 
 ## <a id="acknowledgments"></a> 🙏 Acknowledgments
-This repository is built using the Sample4Geo[https://github.com/Skyy93/Sample4Geo], DAC [https://github.com/SummerpanKing/DAC], EM-CVGL [https://github.com/Collebt/EM-CVGL], ADCA [https://github.com/yangbincv/ADCA]repositories.
+This repository is built using the Sample4Geo[https://github.com/Skyy93/Sample4Geo], DAC [https://github.com/SummerpanKing/DAC], EM-CVGL [https://github.com/Collebt/EM-CVGL], ADCA [https://github.com/yangbincv/ADCA] repositories.
