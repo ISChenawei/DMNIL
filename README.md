@@ -1,6 +1,6 @@
 ## DMNIL 2025 [[paper](https://arxiv.org/abs/2502.11381)][[model](#pre-trained-checkpoints)] [[Cite](#Citation)]
 This repository is the official implementation of the paper "Without Paired Labeled Data: An End-to-End Self-Supervised Paradigm for UAV-View Geo-Localization" (https://arxiv.org/abs/2502.11381). 
-## The code will be released soon.
+## The code will be released soon！！！🙏.
 The current version of the repository can cover the experiments reported in the paper, for researchers in time efficiency. And we will also update this repository for better understanding and clarity.
 
 ## <a id="table-of-contents"></a> 📚 Table of contents
