@@ -162,7 +162,7 @@ class Configuration:
         parser = argparse.ArgumentParser(description='Train and Test on University-1652')
 
         # Added for your modification
-        parser.add_argument('--model', default='8', type=str, help='backbone model')
+        parser.add_argument('--model', default='ConvNext-tiny', type=str, help='backbone model')
         parser.add_argument('--handcraft_model', default=True, type=bool, help='use modified backbone')
         parser.add_argument('--img_size', default=384, type=int, help='input image size')
         parser.add_argument('--height', default=384, type=int, help='input image height')
