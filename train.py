@@ -689,7 +689,8 @@ def main(config):
             with torch.no_grad():
                 TOPK2 = 10
                 Score_TOPK = 10
-
+                features_sat_s_ = features_sat_ori_ + torch.randn_like(features_sat_ori_) * 0.05
+                features_dro_s_ = features_dro_ori_ + torch.randn_like(features_dro_ori_) * 0.05
                 cluster_label_dro_self = trainer.wise_memory_dro.labels.detach().cpu()
                 ins_sim_sat_dro = features_sat_ori_.mm(features_dro_ori_.t())
                 ins_sim_sat_dro_s = features_sat_s_.mm(features_dro_s_.t())
@@ -724,7 +725,7 @@ def main(config):
 
                 sat_self_sim = sat_self_sim + sat_self_sim_s
 
-                topk_self, indices_self = torch.topk(sat_self_sim, 5)
+                topk_self, indices_self = torch.topk(sat_self_sim, 5)  # 20
                 mask_self = torch.zeros_like(sat_self_sim)
                 mask_self = mask_self.scatter(1, indices_self, 1)
                 sat_self_sim = mask_self
@@ -733,7 +734,7 @@ def main(config):
                 smooth_sat = torch.argmax(smooth_sat, 1).view(-1).numpy()
                 pseudo_labels_sat_cm = [int(smolabel - 1) for smolabel in smooth_sat]
                 pseudo_labels_sat_cm = np.array(pseudo_labels_sat_cm)
-                cluster_label_sat_dro = torch.from_numpy(pseudo_labels_sat_cm)
+                cluster_label_sat_dro = torch.from_numpy(pseudo_labels_sat_cm)  # .view(-1)
 
                 del sat_self_sim, smooth_sat, lp_feat_sat, lp_feat_sat_s
 
