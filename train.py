@@ -16,7 +16,7 @@ import collections
 from torch.utils.data import DataLoader
 import torch.nn.functional as F
 from DMNIL.evaluators import extract_features
-from DMNIL.hand_convnext.ConvNext.cluster_model import ClusterMemory, Memory_wise_v3, DHML
+from DMNIL.hand_convnext.ConvNext.cluster_model import ClusterMemory, ClusterMemoryV2, DHML
 from DMNIL.solver import make_optimizer, WarmupMultiStepLR
 from DMNIL.Utils.init import IterLoader
 from DMNIL.Utils.sampler import RandomMultipleGallerySamplerNoCam, RandomMultipleGallerySampler
@@ -591,9 +591,9 @@ def main(config):
         trainer.memory_sat = memory_sat
         wise_momentum = 0.9
         print('wise_momentum', wise_momentum)
-        wise_memory_sat = Memory_wise_v3(768, len(dataset_sat.train), num_cluster_sat, temp=config.temp,
+        wise_memory_sat = ClusterMemoryV2(768, len(dataset_sat.train), num_cluster_sat, temp=config.temp,
                                              momentum=wise_momentum).cuda()  # config.momentum
-        wise_memory_dro = Memory_wise_v3(768, len(dataset_dro.train), num_cluster_dro, temp=config.temp,
+        wise_memory_dro = ClusterMemoryV2(768, len(dataset_dro.train), num_cluster_dro, temp=config.temp,
                                             momentum=wise_momentum).cuda()
         wise_memory_dro.features = F.normalize(features_dro_ori, dim=1).cuda()
         wise_memory_sat.features = F.normalize(features_sat_ori, dim=1).cuda()
@@ -623,9 +623,9 @@ def main(config):
         trainer.memory_dro_s = memory_dro_s
         trainer.memory_sat_s = memory_sat_s
 
-        wise_memory_sat_s = Memory_wise_v3(768, len(dataset_sat.train), num_cluster_sat, temp=config.temp,
+        wise_memory_sat_s = ClusterMemoryV2(768, len(dataset_sat.train), num_cluster_sat, temp=config.temp,
                                                momentum=wise_momentum).cuda()  # 0.9
-        wise_memory_dro_s = Memory_wise_v3(768, len(dataset_dro.train), num_cluster_dro, temp=config.temp,
+        wise_memory_dro_s = ClusterMemoryV2(768, len(dataset_dro.train), num_cluster_dro, temp=config.temp,
                                               momentum=wise_momentum).cuda()  # config.momentum
         wise_memory_dro_s.features = F.normalize(features_dro_s, dim=1).cuda()
         wise_memory_sat_s.features = F.normalize(features_sat_s, dim=1).cuda()
