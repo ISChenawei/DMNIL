@@ -14,82 +14,35 @@ The current version of the repository can cover the experiments reported in the 
 
 ## <a id="dataset-access"></a> 💾 Dataset Access
 Please prepare [University-1652](https://github.com/layumi/University1652-Baseline), [SUES-200](https://github.com/Reza-Zhu/SUES-200-Benchmark), [DenseUAV](https://github.com/Dmmm1997/DenseUAV)
-## <a id="dataset-structure"></a> 📁 Dataset Structure
+## <a id="dataset-structure"></a> 📁 Dataset Process
 
-### University-1652 Dataset Directory Structure
+### Process University-1652 Dataset  
 ```
-├── University-1652/
-│   ├── train/
-│       ├── drone/                   /* drone-view training images 
-│           ├── 0001
-|           ├── 0002
-|           ...
-│       ├── satellite/               /* satellite-view training images       
-│   ├── test/
-│       ├── query_drone/  
-│       ├── gallery_drone/  
-│       ├── query_satellite/  
-│       ├── gallery_satellite/ 
+run process_data/porcess_U1652.py
 ```
-### SUES-200 Dataset Directory Structure
+### Process SUES-200 Dataset  
 ```
-├─ SUES-200
-  ├── Training
-    ├── 150/
-    ├── 200/
-    ├── 250/
-    └── 300/
-  ├── Testing
-    ├── 150/
-    ├── 200/ 
-    ├── 250/	
-    └── 300/
+run process_data/porcess_SUES-200.py
 ```
-### DenseUAV Dataset Directory Structure
+### Process DenseUAV Dataset 
 ```
-├── DenseUAV/
-│   ├── Dense_GPS_ALL.txt           /* format as: path latitude longitude height
-│   ├── Dense_GPS_test.txt
-│   ├── Dense_GPS_train.txt
-│   ├── train/
-│       ├── drone/                   /* drone-view training images
-│           ├── 000001
-│               ├── H100.JPG
-│               ├── H90.JPG
-│               ├── H80.JPG
-|           ...
-│       ├── satellite/               /* satellite-view training images
-│           ├── 000001
-│               ├── H100_old.tif
-│               ├── H90_old.tif
-│               ├── H80_old.tif
-│               ├── H100.tif
-│               ├── H90.tif
-│               ├── H80.tif
-|           ...
-│   ├── test/
-│       ├── query_drone/             /* UAV-view testing images
-│       ├── query_satellite/         /* satellite-view testing images
+run process_data/porcess_SUES-200.py
 ```
 ## <a id="train-and-test"></a> 🚀 Train and Test
 
 For University-1652 Dataset
 ```
-Train: run train_university.py, with --only_test = False.
+Train: run train.py, with --only_test = False.
 
-Test: run train_university.py, with --only_test = True, and choose the model in --ckpt_path.
+Test: run train.py, with --only_test = True, and choose the model in --ckpt_path.
 ```
 For SUES-200 Dataset
 ```
-Train: run train_SUES-200.py, with --only_test = False.
-
-Test: run train_SUES-200.py, with --only_test = True, and choose the model in --ckpt_path.
+The remaining code is scheduled to be updated in the near future.
 ```
 For DenseUAV Dataset
 ```
-Train: run train_DenseUAV.py, with --only_test = False.
-
-Test: run train_DenseUAV.py, with --only_test = True, and choose the model in --ckpt_path.
+The remaining code is scheduled to be updated in the near future.
 ```
 ## <a id="pre-trained-checkpoints"></a> 🤗 Pre-trained Checkpoints
 We provide the trained models in the link below:
