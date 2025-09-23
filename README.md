@@ -61,7 +61,7 @@ This project is licensed under the [Apache 2.0 license](LICENSE).
 ```bibtex
 @article{chen2025without,
   title={Without Paired Labeled Data: End-to-End Self-Supervised Method for Drone-View Geo-Localization},
-  author={Chen, Zhongwei and Yang, Zhao-Xu and Rong, Hai-Jun},
+  author={Chen, Zhongwei and Yang, Zhao-Xu, Rong, Hai-Jun and Guoqi Li},
   journal={arXiv preprint arXiv:2502.11381},
   year={2025}
 }
