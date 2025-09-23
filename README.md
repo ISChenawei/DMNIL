@@ -47,7 +47,7 @@ The remaining code is scheduled to be updated in the near future.
 ## <a id="pre-trained-checkpoints"></a> 🤗 Pre-trained Checkpoints
 We provide the trained models in the link below:
 
-Link: The trained models will be released soon.
+https://pan.baidu.com/s/151fhP4kwW4rTXqjRRlSM6Q 提取码: sm8s 
 
 We will update this repository for better clarity ASAP, current version is for quick research for researchers interested in the cross-view geo-localization task.
 
@@ -60,7 +60,7 @@ This project is licensed under the [Apache 2.0 license](LICENSE).
 
 ```bibtex
 @article{chen2025without,
-  title={Without Paired Labeled Data: An End-to-End Self-Supervised Paradigm for UAV-View Geo-Localization},
+  title={Without Paired Labeled Data: End-to-End Self-Supervised Method for Drone-View Geo-Localization},
   author={Chen, Zhongwei and Yang, Zhao-Xu and Rong, Hai-Jun},
   journal={arXiv preprint arXiv:2502.11381},
   year={2025}
