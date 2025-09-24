@@ -25,7 +25,7 @@ from DMNIL.dataset.university import U1652DatasetEval, get_transforms
 from DMNIL import dataset
 from DMNIL.traners import Trainer_DMNIL
 from DMNIL.utils import setup_system, Logger
-
+import re
 from DMNIL.evaluate.university import evaluate
 from DMNIL.model import TimmModel
 from DMNIL.Utils import transforms as T
@@ -101,6 +101,35 @@ def get_test_loader(dataset, height, width, batch_size, workers, testset=None,te
 
     return test_loader
 
+
+def load_latest_checkpoint(config):
+    ckpt_dir = config.model_path
+
+    files = os.listdir(ckpt_dir)
+
+    weight_files = [f for f in files if f.startswith("weights_e") and f.endswith(".pth")]
+
+    if not weight_files:
+        raise FileNotFoundError(f"No checkpoint found in {ckpt_dir}")
+
+    epoch_numbers = []
+    for f in weight_files:
+        match = re.search(r"weights_e(\d+)\.pth", f)
+        if match:
+            epoch_numbers.append((int(match.group(1)), f))
+
+    if not epoch_numbers:
+        raise FileNotFoundError("No valid checkpoint file found!")
+
+    latest_epoch, latest_file = max(epoch_numbers, key=lambda x: x[0])
+    checkpoint_path = os.path.join(ckpt_dir, latest_file)
+
+    print(f"Loading latest checkpoint: {checkpoint_path}")
+
+
+    return checkpoint_path, latest_epoch
+
+
 class WarmupMultiStepLR(torch.optim.lr_scheduler._LRScheduler):
     def __init__(
         self,
@@ -162,7 +191,7 @@ class Configuration:
         parser = argparse.ArgumentParser(description='Train and Test on University-1652')
 
         # Added for your modification
-        parser.add_argument('--model', default='ConvNext-tiny', type=str, help='backbone model')
+        parser.add_argument('--model', default='8', type=str, help='backbone model')
         parser.add_argument('--handcraft_model', default=True, type=bool, help='use modified backbone')
         parser.add_argument('--img_size', default=384, type=int, help='input image size')
         parser.add_argument('--height', default=384, type=int, help='input image height')
@@ -501,9 +530,9 @@ def main(config):
         print(epoch)
         if (epoch == trainer.cmlabel):
 
-            checkpoint_path = os.path.join(config.ckpt_path, '..')
+            checkpoint_path,latest_epoch = load_latest_checkpoint(config)
             checkpoint = torch.load(checkpoint_path)
-
+            print(f"Loaded checkpoint from epoch {latest_epoch}")
 
             state_dict = checkpoint['state_dict'] if 'state_dict' in checkpoint else checkpoint
             model_is_parallel = isinstance(model, torch.nn.DataParallel)  # 判断模型是否是多 GPU 模式
@@ -657,8 +686,6 @@ def main(config):
             else:
                 outlier = outlier + 1
 
-        print('==> Statistics for dro epoch {}: {} clusters outlier {}'.format(epoch, num_cluster_dro, outlier))
-
         pseudo_labeled_dataset_sat = []
         sat_label = []
         pseudo_real_sat = {}
@@ -682,7 +709,6 @@ def main(config):
             else:
                 outlier = outlier + 1
 
-        print('==> Statistics for sat epoch {}: {} clusters outlier {} '.format(epoch, num_cluster_sat, outlier))
         pseudo_labels_sat_ori = torch.from_numpy(pseudo_labels_sat)
 
         if epoch >= trainer.cmlabel:
@@ -758,7 +784,6 @@ def main(config):
                     pseudo_labeled_dataset_dro.append((fname, label.item(), cid))
                     # if epoch%10 == 0:
                     #     print(fname,label.item())
-            print('stage2 ==> Statistics for dro epoch {}: {} clusters'.format(epoch, num_cluster_dro))
 
             pseudo_labeled_dataset_sat = []
             cams_sat = []
@@ -772,9 +797,7 @@ def main(config):
 
                 if (label != -1) and (sat_label_ms != -1):
                     pseudo_labeled_dataset_sat.append((fname, label.item(), cid))
-                        # if epoch%10 == 0:
-                        #     print(fname,label.item())
-            print('stage2 ==> Statistics for sat epoch {}: {} clusters'.format(epoch, num_cluster_sat))
+
 
             features_all = torch.cat((features_sat_ori, features_dro_ori), dim=0)
 
