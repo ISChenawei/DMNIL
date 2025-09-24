@@ -11,7 +11,27 @@ import collections
 from torch import einsum
 from torch.autograd import Variable
 import numpy as np
+def pdist_torch(emb1, emb2):
+    '''
+    compute the eucilidean distance matrix between embeddings1 and embeddings2
+    using gpu
+    '''
+    m, n = emb1.shape[0], emb2.shape[0]
+    emb1_pow = torch.pow(emb1, 2).sum(dim=1, keepdim=True).expand(m, n)
+    emb2_pow = torch.pow(emb2, 2).sum(dim=1, keepdim=True).expand(n, m).t()
+    dist_mtx = emb1_pow + emb2_pow
+    dist_mtx = dist_mtx.addmm_(1, -2, emb1, emb2.t())
+    # dist_mtx = dist_mtx.clamp(min = 1e-12)
+    dist_mtx = dist_mtx.clamp(min=1e-12).sqrt()
+    return dist_mtx
 
+
+def softmax_weights(dist, mask):
+    max_v = torch.max(dist * mask, dim=1, keepdim=True)[0]
+    diff = dist - max_v
+    Z = torch.sum(torch.exp(diff) * mask, dim=1, keepdim=True) + 1e-6  # avoid division by zero
+    W = torch.exp(diff) * mask / Z
+    return W
 def normalize(x, axis=-1):
     x = 1. * x / (torch.norm(x, 2, axis, keepdim=True).expand_as(x) + 1e-12)
     return x
@@ -177,11 +197,9 @@ class Trainer_DMNIL(object):
                 if epoch >= self.ht:  # self.cmlabel:
                     if epoch % 2 == 0:
                         with torch.no_grad():
-                            print('epoch % 2 == 0')
                             sim_prob_sat_dro = self.wise_memory_sat_s.features.detach()[index_sat].mm(self.wise_memory_dro_s.features.detach().data.t())
                             sim_sat_dro = self.wise_memory_sat.features.detach()[index_sat].mm(self.wise_memory_dro.features.detach().data.t())
-                            # 基于排名的邻居选择
-                            k = 10  # 选择前10个最近邻
+                            k = 10 
                             k1 = 20
                             _, indices = sim_sat_dro.topk(k, dim=1)
                             _, indices1 = sim_sat_dro.topk(k1, dim=1)
@@ -200,9 +218,9 @@ class Trainer_DMNIL(object):
                         sat_dro_loss = 0.5 * lamda_d_neibor * sat_dro_loss.div(num_neighbor_sat_dro).mean()
                         neighbor_sim = sim_sat_dro[:, indices]
                         p = F.softmax(neighbor_sim, dim=1)
-                        q = torch.ones_like(p) / p.size(1)  # 均匀分布
+                        q = torch.ones_like(p) / p.size(1) 
                         epsilon = 1e-8
-                        p = (p + epsilon) / (1 + epsilon * p.size(1))  # 平滑概率分布
+                        p = (p + epsilon) / (1 + epsilon * p.size(1)) 
                         consistency_loss = F.kl_div(p.log(), q, reduction='batchmean')
                         sat_dro_loss += 0.01 * consistency_loss
 
@@ -217,7 +235,6 @@ class Trainer_DMNIL(object):
                         neighbor_sim = sim_sat_dro[:, indices1]
                         p = F.softmax(neighbor_sim, dim=1)
                         p = (p + epsilon) / (1 + epsilon * p.size(1))
-                        # 计算互信息
                         mutual_info = (p * p.log()).sum(dim=1).mean().clamp_min(0)
                         sat_dro_loss_s += 0.1 * mutual_info
 
@@ -227,7 +244,7 @@ class Trainer_DMNIL(object):
                                 self.wise_memory_sat_s.features.detach().data.t())  # F.softmax(F.normalize(f_out_sat_s, dim=1).mm(self.wise_memory_dro_s.features.detach().data.t())/0.05,dim=1)#B N
                             sim_sat_dro = self.wise_memory_dro.features.detach()[index_dro].mm(
                                 self.wise_memory_sat.features.detach().data.t())  # F.softmax(F.normalize(f_out_sat, dim=1).mm(self.wise_memory_dro.features.detach().data.t())/0.05,dim=1)
-                            k = 10  # 选择前10个最近邻
+                            k = 10  
                             k1 = 20
                             _, indices = sim_sat_dro.topk(k, dim=1)
                             _, indices1 = sim_sat_dro.topk(k1, dim=1)
@@ -255,9 +272,9 @@ class Trainer_DMNIL(object):
                         score_intra_sat_dro_s = score_intra_sat_dro_s.clamp_min(1e-8)
                         neighbor_sim = sim_sat_dro[:, indices1]
                         p = F.softmax(neighbor_sim, dim=1)
-                        q = torch.ones_like(p) / p.size(1)  # 均匀分布
+                        q = torch.ones_like(p) / p.size(1) 
                         epsilon = 1e-8
-                        p = (p + epsilon) / (1 + epsilon * p.size(1))  # 平滑概率分布
+                        p = (p + epsilon) / (1 + epsilon * p.size(1))  
                         consistency_loss = F.kl_div(p.log(), q, reduction='batchmean')
                         dro_sat_loss += 0.01 * consistency_loss
                         dro_sat_loss = dro_sat_loss*0
@@ -306,9 +323,9 @@ class Trainer_DMNIL(object):
 
                 neighbor_sim = sim_sat_sat[:, indices1]
                 p = F.softmax(neighbor_sim, dim=1)
-                q = torch.ones_like(p) / p.size(1)  # 均匀分布
+                q = torch.ones_like(p) / p.size(1)
                 epsilon = 1e-8
-                p = (p + epsilon) / (1 + epsilon * p.size(1))  # 平滑概率分布
+                p = (p + epsilon) / (1 + epsilon * p.size(1))  
                 consistency_loss = F.kl_div(p.log(), q, reduction='batchmean')
                 # print('consistency_loss', consistency_loss)
                 sat_sat_loss += 0.01 * consistency_loss
@@ -323,11 +340,11 @@ class Trainer_DMNIL(object):
                 sat_sat_loss_s = lamda_s_neibor * sat_sat_loss_s.div(
                     num_neighbor_sat_sat).mean()  # .mul(sat_ca).mul(sat_ca).mul(mask_neighbor_intra_soft) ##
                 neighbor_sim = sim_sat_sat[:, indices]
-                p = F.softmax(neighbor_sim, dim=1)  # 转为概率分布
+                p = F.softmax(neighbor_sim, dim=1) 
                 p = (p + epsilon) / (1 + epsilon * p.size(1))
                 # 计算互信息
-                mutual_info = (p * p.log()).sum(dim=1).mean().clamp_min(0)  # 确保互信息非负
-                sat_sat_loss_s += 0.1 * mutual_info  # 加入互信息损失
+                mutual_info = (p * p.log()).sum(dim=1).mean().clamp_min(0)
+                sat_sat_loss_s += 0.1 * mutual_info
                 # print('sat_sat_loss sat_sat_loss_s',sat_sat_loss.size(),sat_sat_loss_s.size())
                 sat_sat_loss_s=sat_sat_loss_s*0
                 # #################dro-dro
@@ -373,7 +390,7 @@ class Trainer_DMNIL(object):
                 q = torch.ones_like(p) / p.size(1)
                 epsilon = 1e-8
                 p = (p + epsilon) / (1 + epsilon * p.size(1))
-                consistency_loss = F.kl_div(p.log(), q, reduction='batchmean').clamp_min(0)  # 确保非负
+                consistency_loss = F.kl_div(p.log(), q, reduction='batchmean').clamp_min(0) 
                 dro_dro_loss += 0.01 * consistency_loss
                 dro_dro_loss = dro_dro_loss*0
                 sim_prob_dro_dro_exp = sim_prob_dro_dro / 0.05  # 64*13638
