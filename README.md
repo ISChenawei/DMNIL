@@ -2,7 +2,7 @@
 <p align="center">
 
   <h1 align="center">End-to-End Self-Supervised Method for Drone-View Geo-Localization</h1>
-  <h3 align="center"><strong>Zhongwei Chen</strong>, <strong>Yangzhao Xu*</strong>, <strong>Haijun Rong*</strong>, <strong>Guoqi Li</strong></h3>
+  <h3 align="center"><strong>Zhongwei Chen</strong>, <strong>Zhaoxu Yang*</strong>, <strong>Haijun Rong*</strong>, <strong>Guoqi Li</strong></h3>
   <p align="center">
     <img src="DMNIL/figure/1_01.png" alt="Description of the image" style="width:100%;">
   <p align="center">
