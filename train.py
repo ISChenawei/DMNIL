@@ -103,7 +103,7 @@ def get_test_loader(dataset, height, width, batch_size, workers, testset=None,te
 
 
 def load_latest_checkpoint(config):
-    ckpt_dir = config.model_path
+    ckpt_dir = os.path.join(config.model_path,config.model)
 
     files = os.listdir(ckpt_dir)
 
