@@ -147,7 +147,7 @@ class DHML(nn.Module):
 
         with torch.no_grad():
             self.short_term_features[targets] = (
-                    0.2 * inputs + (1 - 0.2) * self.short_term_features[targets]
+                    0.2 * inputs + (1 - 0.3) * self.short_term_features[targets]
             )
 
         with torch.no_grad():
