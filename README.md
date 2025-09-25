@@ -1,8 +1,17 @@
 ## DMNIL 2025 [[paper](https://arxiv.org/abs/2502.11381)][[model](#pre-trained-checkpoints)] [[Cite](#Citation)]
 <p align="center">
 
-  <h1 align="center">End-to-End Self-Supervised Method for Drone-View Geo-Localization</h1>
-  <h3 align="center"><strong>Zhongwei Chen</strong>, <strong>Zhaoxu Yang*</strong>, <strong>Haijun Rong*</strong>, <strong>Guoqi Li</strong></h3>
+<h1 align="center">End-to-End Self-Supervised Method for Drone-View Geo-Localization</h1>
+<h3 align="center"><strong>Zhongwei Chen</strong><sup>1,2,3</sup>, <strong>Zhaoxu Yang*</strong><sup>1,2,3</sup>, <strong>Haijun Rong*</strong><sup>1,2,3</sup>, <strong>Guoqi Li</strong><sup>4,5,6</sup></h3>
+
+<div align="center">
+  <sup>1</sup>School of Aerospace Engineering, Xi'an Jiaotong University China<br>
+  <sup>2</sup>State Key Laboratory for Strength and Vibration of Mechanical Structures<br>
+  <sup>3</sup>Shaanxi Key Laboratory of Environment and Control for Flight Vehicle<br>
+  <sup>4</sup>Institute of Automation, Chinese Academy of Sciences, China<br>
+  <sup>5</sup>School of Artificial Intelligence, University of Chinese Academy of Sciences<br>
+  <sup>6</sup>Peng Cheng Laboratory
+</div>
   <p align="center">
     <img src="DMNIL/figure/1_01.png" alt="Description of the image" style="width:100%;">
   <p align="center">
