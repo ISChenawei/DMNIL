@@ -85,6 +85,15 @@ This project is licensed under the [Apache 2.0 license](LICENSE).
   year={2025}
 }
 ```
+This code is based on previous work CDIKTNet. If you find this code useful for your research, please cite our papers.
 
+```bibtex
+@article{chen2025without,
+  title={Without Paired Labeled Data: End-to-End Self-Supervised Learning for Drone-view Geo-Localization},
+  author={Chen, Zhongwei and Yang, Zhao-Xu and Rong, Hai-Jun and Li, Guoqi},
+  journal={arXiv preprint arXiv:2502.11381},
+  year={2025}
+}
+```
 ## <a id="acknowledgments"></a> 🙏 Acknowledgments
 This repository is built using the Sample4Geo[https://github.com/Skyy93/Sample4Geo], DAC [https://github.com/SummerpanKing/DAC], EM-CVGL [https://github.com/Collebt/EM-CVGL], ADCA [https://github.com/yangbincv/ADCA] repositories.
