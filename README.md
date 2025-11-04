@@ -88,11 +88,11 @@ This project is licensed under the [Apache 2.0 license](LICENSE).
 This code is based on previous work CDIKTNet. If you find this code useful for your research, please cite our papers.
 
 ```bibtex
-@article{chen2025without,
-  title={Without Paired Labeled Data: End-to-End Self-Supervised Learning for Drone-view Geo-Localization},
-  author={Chen, Zhongwei and Yang, Zhao-Xu and Rong, Hai-Jun and Li, Guoqi},
-  journal={arXiv preprint arXiv:2502.11381},
-  year={2025}
+@Article{chen2025limited,
+title={From Limited Labels to Open Domains: An Efficient Learning Method for Drone-view Geo-Localization},
+author={Chen, Zhongwei and Yang, Zhao-Xu and Rong, Hai-Jun ,Lang, Jiawei and Li, Guoqi},
+journal={arXiv preprint arXiv:2503.07520},
+year={2025}
 }
 ```
 ## <a id="acknowledgments"></a> 🙏 Acknowledgments
