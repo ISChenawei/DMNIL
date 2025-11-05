@@ -458,3 +458,14 @@ class Trainer_DMNIL(object):
                 print('loss_shared_s,loss_shared', loss_shared_s.item(), loss_shared.item())
                 print('dro_sat_loss_s,sat_dro_loss_s', dro_sat_loss_s.item(), sat_dro_loss_s.item())
                 print('dro_dro_loss_s,sat_sat_loss_s', dro_dro_loss_s.item(), sat_sat_loss_s.item())
+                
+    def _parse_data_sat(self, inputs):
+        imgs, imgs1, name, pids, cids, indexes = inputs
+        return imgs.cuda(), imgs1.cuda(), pids.cuda(), indexes.cuda(), cids.cuda(), name
+
+    def _parse_data_dro(self, inputs):
+        imgs, name, pids, cids, indexes = inputs
+        return imgs.cuda(), pids.cuda(), indexes.cuda(), cids.cuda(), name
+
+    def _forward(self, x1, x2):
+        return self.encoder(x1, x2)
