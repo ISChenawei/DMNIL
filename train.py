@@ -326,12 +326,10 @@ def main(config):
         from DMNIL.hand_convnext.model import make_model
 
         model = make_model(config)
-        print("\nModel:{}".format("adjust model: handcraft convnext-base"))
+        print("\nModel:{}".format("adjust model: handcraft convnext-tiny"))
         total_params = sum(p.numel() for p in model.parameters())
         params = total_params / 1_000_000
         print(f"total parameters in model: {params:.2f}M")
-    print(
-        f"\nweight_infonce:{config.weight_infonce}\nweight_gcc:{config.weight_cls}\nweight_dsa:{config.weight_dsa}\n")
 
     # Activate gradient checkpointing
     if config.grad_checkpointing:
