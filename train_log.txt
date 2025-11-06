@@ -2293,601 +2293,201 @@ config.momentum 0.1
 wise_momentum 0.9
 ==> Statistics for dro epoch 10: 765 clusters outlier 198
 ==> Statistics for sat epoch 10: 834 clusters outlier 18 
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][10/400]	Time 5.405 (6.037)	Data 0.000 (0.474)	Loss 8.874 (8.952)	Loss dro 0.053 (0.045)	Loss sat 0.220 (0.249)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.281 (0.311)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7563987970352173 0.7611334919929504
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1637311726808548
 dro_dro_loss_s,sat_sat_loss_s 0.1381569504737854 1.9194440841674805
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][20/400]	Time 5.525 (5.810)	Data 0.000 (0.237)	Loss 9.101 (8.952)	Loss dro 0.047 (0.038)	Loss sat 0.185 (0.243)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.389 (0.316)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7655653953552246 0.7553802728652954
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.18189223110675812
 dro_dro_loss_s,sat_sat_loss_s 0.192149817943573 1.9201220273971558
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][30/400]	Time 5.612 (5.733)	Data 0.000 (0.158)	Loss 9.387 (9.064)	Loss dro 0.114 (0.048)	Loss sat 0.198 (0.259)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.502 (0.340)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.8296108245849609 0.7757169604301453
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16888029873371124
 dro_dro_loss_s,sat_sat_loss_s 0.2487201988697052 1.9286075830459595
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][40/400]	Time 5.817 (5.699)	Data 0.001 (0.119)	Loss 8.723 (9.091)	Loss dro 0.021 (0.055)	Loss sat 0.135 (0.252)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.346 (0.343)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7424342036247253 0.7176998257637024
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14765886962413788
 dro_dro_loss_s,sat_sat_loss_s 0.17049022018909454 1.9244983196258545
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][50/400]	Time 5.617 (5.738)	Data 0.000 (0.163)	Loss 9.307 (9.078)	Loss dro 0.402 (0.071)	Loss sat 0.146 (0.236)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.310 (0.335)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7673555612564087 0.7534096240997314
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.18175368010997772
 dro_dro_loss_s,sat_sat_loss_s 0.15255902707576752 1.9238121509552002
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][60/400]	Time 5.599 (5.806)	Data 0.001 (0.232)	Loss 8.589 (9.042)	Loss dro 0.217 (0.114)	Loss sat 0.311 (0.242)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.298 (0.328)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5469125509262085 0.42374902963638306
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1679084151983261
 dro_dro_loss_s,sat_sat_loss_s 0.1462380439043045 1.9058326482772827
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][70/400]	Time 5.619 (5.774)	Data 0.000 (0.199)	Loss 8.016 (9.002)	Loss dro 0.222 (0.145)	Loss sat 0.015 (0.243)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.390 (0.331)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5528956651687622 0.13492678105831146
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14915786683559418
 dro_dro_loss_s,sat_sat_loss_s 0.19243720173835754 1.8945072889328003
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][80/400]	Time 5.579 (5.747)	Data 0.000 (0.174)	Loss 8.908 (8.994)	Loss dro 0.297 (0.167)	Loss sat 0.320 (0.253)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.275 (0.331)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6794130802154541 0.46397751569747925
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16835759580135345
 dro_dro_loss_s,sat_sat_loss_s 0.13489675521850586 1.935847282409668
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][90/400]	Time 5.575 (5.727)	Data 0.000 (0.155)	Loss 8.957 (8.976)	Loss dro 0.286 (0.184)	Loss sat 0.352 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.353 (0.327)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6574434638023376 0.5057043433189392
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1691170483827591
 dro_dro_loss_s,sat_sat_loss_s 0.17424297332763672 1.8975136280059814
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][100/400]	Time 5.563 (5.742)	Data 0.000 (0.172)	Loss 9.009 (8.964)	Loss dro 0.347 (0.200)	Loss sat 0.414 (0.262)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.405 (0.327)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5288134813308716 0.5788118243217468
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15105929970741272
 dro_dro_loss_s,sat_sat_loss_s 0.2002030909061432 1.8995792865753174
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][110/400]	Time 5.603 (5.779)	Data 0.000 (0.207)	Loss 8.375 (8.933)	Loss dro 0.216 (0.210)	Loss sat 0.408 (0.265)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.359 (0.334)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3600658178329468 0.4261208176612854
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14616000652313232
 dro_dro_loss_s,sat_sat_loss_s 0.17706263065338135 1.8733404874801636
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][120/400]	Time 5.573 (5.762)	Data 0.000 (0.190)	Loss 9.461 (8.909)	Loss dro 0.352 (0.217)	Loss sat 0.709 (0.275)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.340 (0.335)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5384232997894287 0.7606767416000366
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16041412949562073
 dro_dro_loss_s,sat_sat_loss_s 0.16733640432357788 1.902132272720337
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][130/400]	Time 5.351 (5.741)	Data 0.000 (0.175)	Loss 8.586 (8.868)	Loss dro 0.271 (0.223)	Loss sat 0.403 (0.274)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.307 (0.333)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.44888031482696533 0.4687386751174927
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16322441399097443
 dro_dro_loss_s,sat_sat_loss_s 0.15103495121002197 1.877756953239441
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][140/400]	Time 5.515 (5.730)	Data 0.000 (0.163)	Loss 8.968 (8.847)	Loss dro 0.471 (0.229)	Loss sat 0.228 (0.273)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.387 (0.336)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6739683151245117 0.272461861371994
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.158033087849617
 dro_dro_loss_s,sat_sat_loss_s 0.190702423453331 1.9569673538208008
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][150/400]	Time 5.567 (5.745)	Data 0.000 (0.175)	Loss 8.186 (8.820)	Loss dro 0.283 (0.237)	Loss sat 0.141 (0.267)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.336 (0.340)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3741505444049835 0.18901777267456055
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1643366664648056
 dro_dro_loss_s,sat_sat_loss_s 0.1659335047006607 1.929273247718811
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][160/400]	Time 5.449 (5.769)	Data 0.000 (0.199)	Loss 8.724 (8.793)	Loss dro 0.398 (0.242)	Loss sat 0.376 (0.267)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.371 (0.341)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.49029791355133057 0.39545270800590515
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14966289699077606
 dro_dro_loss_s,sat_sat_loss_s 0.18291816115379333 1.8937865495681763
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][170/400]	Time 5.417 (5.756)	Data 0.000 (0.187)	Loss 8.718 (8.774)	Loss dro 0.227 (0.246)	Loss sat 0.463 (0.267)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.418 (0.346)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2857266068458557 0.49486425518989563
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16161374747753143
 dro_dro_loss_s,sat_sat_loss_s 0.20656949281692505 1.909571886062622
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][180/400]	Time 5.562 (5.741)	Data 0.000 (0.177)	Loss 8.748 (8.759)	Loss dro 0.409 (0.249)	Loss sat 0.336 (0.273)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.366 (0.346)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.4953875243663788 0.37324267625808716
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16250629723072052
 dro_dro_loss_s,sat_sat_loss_s 0.18048641085624695 1.896463394165039
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][190/400]	Time 5.561 (5.748)	Data 0.000 (0.185)	Loss 8.564 (8.741)	Loss dro 0.308 (0.256)	Loss sat 0.367 (0.272)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.362 (0.346)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3429940342903137 0.4035812020301819
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1676102876663208
 dro_dro_loss_s,sat_sat_loss_s 0.17852148413658142 1.8916816711425781
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][200/400]	Time 5.532 (5.739)	Data 0.001 (0.175)	Loss 8.703 (8.730)	Loss dro 0.422 (0.259)	Loss sat 0.347 (0.274)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.307 (0.348)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.47434234619140625 0.3960583508014679
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1747562140226364
 dro_dro_loss_s,sat_sat_loss_s 0.15072128176689148 1.8798372745513916
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][210/400]	Time 4.832 (5.754)	Data 0.000 (0.194)	Loss 8.195 (8.707)	Loss dro 0.198 (0.261)	Loss sat 0.237 (0.272)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.451 (0.351)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2501167953014374 0.24552972614765167
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15918521583080292
 dro_dro_loss_s,sat_sat_loss_s 0.2229648232460022 1.903272271156311
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][220/400]	Time 5.570 (5.744)	Data 0.000 (0.185)	Loss 8.555 (8.692)	Loss dro 0.406 (0.263)	Loss sat 0.241 (0.272)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.419 (0.355)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.47934260964393616 0.2528134882450104
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16536226868629456
 dro_dro_loss_s,sat_sat_loss_s 0.207312673330307 1.8778746128082275
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][230/400]	Time 5.594 (5.737)	Data 0.000 (0.177)	Loss 8.322 (8.681)	Loss dro 0.277 (0.265)	Loss sat 0.340 (0.274)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.360 (0.357)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.33331120014190674 0.3740239441394806
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15909630060195923
 dro_dro_loss_s,sat_sat_loss_s 0.17747239768505096 1.8602039813995361
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][240/400]	Time 5.563 (5.745)	Data 0.000 (0.184)	Loss 9.232 (8.676)	Loss dro 0.586 (0.269)	Loss sat 0.441 (0.275)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.370 (0.358)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6517795920372009 0.4705624282360077
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15038634836673737
 dro_dro_loss_s,sat_sat_loss_s 0.18257221579551697 1.8995041847229004
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][250/400]	Time 5.585 (5.738)	Data 0.001 (0.177)	Loss 9.288 (8.674)	Loss dro 0.653 (0.273)	Loss sat 0.427 (0.276)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.329 (0.361)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.712249219417572 0.48481249809265137
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15398599207401276
 dro_dro_loss_s,sat_sat_loss_s 0.16199252009391785 1.889323353767395
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][260/400]	Time 5.543 (5.731)	Data 0.000 (0.170)	Loss 8.541 (8.657)	Loss dro 0.486 (0.275)	Loss sat 0.248 (0.273)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.358 (0.363)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5176945924758911 0.28470832109451294
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15624777972698212
 dro_dro_loss_s,sat_sat_loss_s 0.17659133672714233 1.8682382106781006
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][270/400]	Time 5.622 (5.747)	Data 0.001 (0.186)	Loss 8.132 (8.654)	Loss dro 0.287 (0.281)	Loss sat 0.243 (0.273)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.344 (0.365)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3217167258262634 0.2570174038410187
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15247897803783417
 dro_dro_loss_s,sat_sat_loss_s 0.16954925656318665 1.8881540298461914
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][280/400]	Time 5.568 (5.740)	Data 0.000 (0.179)	Loss 8.516 (8.638)	Loss dro 0.209 (0.281)	Loss sat 0.627 (0.274)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.352 (0.366)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2489851713180542 0.675386369228363
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1377112865447998
 dro_dro_loss_s,sat_sat_loss_s 0.17368993163108826 1.8225085735321045
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][290/400]	Time 5.507 (5.746)	Data 0.000 (0.184)	Loss 8.521 (8.630)	Loss dro 0.363 (0.282)	Loss sat 0.224 (0.276)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.564 (0.368)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3943856358528137 0.24916483461856842
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15292277932167053
 dro_dro_loss_s,sat_sat_loss_s 0.2792325019836426 1.8667221069335938
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][300/400]	Time 5.130 (5.736)	Data 0.000 (0.178)	Loss 8.702 (8.625)	Loss dro 0.303 (0.284)	Loss sat 0.355 (0.277)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.562 (0.370)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3283560872077942 0.3947827219963074
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14322300255298615
 dro_dro_loss_s,sat_sat_loss_s 0.27810513973236084 1.8958532810211182
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][310/400]	Time 5.560 (5.730)	Data 0.000 (0.173)	Loss 8.547 (8.615)	Loss dro 0.373 (0.286)	Loss sat 0.334 (0.277)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.403 (0.371)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.4066525995731354 0.3687303364276886
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1536312848329544
 dro_dro_loss_s,sat_sat_loss_s 0.19904862344264984 1.8705424070358276
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][320/400]	Time 5.523 (5.740)	Data 0.000 (0.184)	Loss 8.411 (8.602)	Loss dro 0.344 (0.286)	Loss sat 0.274 (0.276)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.476 (0.371)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3894611895084381 0.28905153274536133
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15642988681793213
 dro_dro_loss_s,sat_sat_loss_s 0.2356097400188446 1.8457636833190918
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][330/400]	Time 8.657 (5.745)	Data 3.174 (0.188)	Loss 7.864 (8.595)	Loss dro 0.278 (0.287)	Loss sat 0.183 (0.277)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.415 (0.373)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2977756857872009 0.19655369222164154
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14462536573410034
 dro_dro_loss_s,sat_sat_loss_s 0.2049175351858139 1.829201102256775
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][340/400]	Time 5.566 (5.738)	Data 0.000 (0.183)	Loss 8.228 (8.583)	Loss dro 0.263 (0.288)	Loss sat 0.335 (0.277)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.397 (0.373)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.28300222754478455 0.38596829771995544
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15736761689186096
 dro_dro_loss_s,sat_sat_loss_s 0.19588546454906464 1.8324310779571533
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][350/400]	Time 5.577 (5.732)	Data 0.001 (0.178)	Loss 8.228 (8.575)	Loss dro 0.357 (0.289)	Loss sat 0.252 (0.278)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.359 (0.372)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.38248682022094727 0.28187060356140137
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1510922759771347
 dro_dro_loss_s,sat_sat_loss_s 0.1770932674407959 1.8608386516571045
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][360/400]	Time 5.600 (5.727)	Data 0.000 (0.173)	Loss 8.282 (8.570)	Loss dro 0.284 (0.290)	Loss sat 0.345 (0.279)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.374 (0.373)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.30787602066993713 0.3976275324821472
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14409027993679047
 dro_dro_loss_s,sat_sat_loss_s 0.18440037965774536 1.8634982109069824
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][370/400]	Time 5.590 (5.739)	Data 0.000 (0.184)	Loss 7.936 (8.562)	Loss dro 0.272 (0.292)	Loss sat 0.182 (0.278)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.415 (0.374)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2964298129081726 0.1981019377708435
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14079539477825165
 dro_dro_loss_s,sat_sat_loss_s 0.20490652322769165 1.8630626201629639
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][380/400]	Time 5.616 (5.743)	Data 0.000 (0.187)	Loss 8.853 (8.557)	Loss dro 0.523 (0.295)	Loss sat 0.430 (0.279)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.304 (0.374)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5668168067932129 0.4679752290248871
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1574552208185196
 dro_dro_loss_s,sat_sat_loss_s 0.1492290198802948 1.8468427658081055
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][390/400]	Time 5.576 (5.738)	Data 0.001 (0.183)	Loss 8.251 (8.548)	Loss dro 0.388 (0.295)	Loss sat 0.264 (0.280)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.335 (0.373)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.41969677805900574 0.2983255982398987
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15170402824878693
 dro_dro_loss_s,sat_sat_loss_s 0.16503913700580597 1.8471412658691406
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [10][400/400]	Time 5.599 (5.734)	Data 0.001 (0.178)	Loss 8.018 (8.539)	Loss dro 0.267 (0.295)	Loss sat 0.280 (0.279)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.283 (0.374)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.28607210516929626 0.3189464211463928
 loss_shared_s,loss_shared 0.0 0.0
@@ -3141,601 +2741,201 @@ config.momentum 0.1
 wise_momentum 0.9
 ==> Statistics for dro epoch 12: 763 clusters outlier 172
 ==> Statistics for sat epoch 12: 844 clusters outlier 10 
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][10/400]	Time 5.417 (6.017)	Data 0.000 (0.482)	Loss 8.859 (8.708)	Loss dro 0.028 (0.030)	Loss sat 0.314 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.189 (0.185)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7337122559547424 0.8449702262878418
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16307984292507172
 dro_dro_loss_s,sat_sat_loss_s 0.0917440727353096 1.9183928966522217
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][20/400]	Time 5.606 (5.801)	Data 0.000 (0.241)	Loss 8.994 (8.728)	Loss dro 0.015 (0.026)	Loss sat 0.344 (0.256)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.237 (0.185)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7362522482872009 0.8918121457099915
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16224469244480133
 dro_dro_loss_s,sat_sat_loss_s 0.1157042607665062 1.9181722402572632
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][30/400]	Time 5.580 (5.728)	Data 0.000 (0.161)	Loss 9.699 (8.842)	Loss dro 0.047 (0.043)	Loss sat 0.603 (0.266)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.225 (0.200)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7894882559776306 1.1634868383407593
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16176073253154755
 dro_dro_loss_s,sat_sat_loss_s 0.1096423864364624 1.9552905559539795
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][40/400]	Time 5.586 (5.684)	Data 0.000 (0.121)	Loss 8.919 (8.842)	Loss dro 0.012 (0.040)	Loss sat 0.292 (0.263)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.219 (0.200)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.746279239654541 0.8797459602355957
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16297407448291779
 dro_dro_loss_s,sat_sat_loss_s 0.10648632049560547 1.9202172756195068
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][50/400]	Time 5.469 (5.717)	Data 0.000 (0.167)	Loss 8.905 (8.816)	Loss dro 0.451 (0.057)	Loss sat 0.013 (0.245)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.212 (0.197)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.8399870991706848 0.6067084670066833
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16608726978302002
 dro_dro_loss_s,sat_sat_loss_s 0.10330246388912201 1.9200348854064941
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][60/400]	Time 5.599 (5.782)	Data 0.001 (0.230)	Loss 9.590 (8.834)	Loss dro 0.422 (0.107)	Loss sat 0.631 (0.262)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.203 (0.197)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.804579496383667 0.7418341636657715
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16658127307891846
 dro_dro_loss_s,sat_sat_loss_s 0.09852010011672974 1.922335147857666
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][70/400]	Time 5.569 (5.752)	Data 0.001 (0.197)	Loss 8.960 (8.798)	Loss dro 0.240 (0.136)	Loss sat 0.521 (0.262)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.290 (0.204)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5743982791900635 0.6271837949752808
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14029137790203094
 dro_dro_loss_s,sat_sat_loss_s 0.14210376143455505 1.9291439056396484
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][80/400]	Time 5.580 (5.731)	Data 0.001 (0.173)	Loss 8.605 (8.756)	Loss dro 0.202 (0.151)	Loss sat 0.348 (0.260)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.226 (0.209)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5491518974304199 0.47888702154159546
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15152181684970856
 dro_dro_loss_s,sat_sat_loss_s 0.1104574054479599 1.9505358934402466
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][90/400]	Time 5.605 (5.714)	Data 0.000 (0.154)	Loss 9.353 (8.741)	Loss dro 0.511 (0.170)	Loss sat 0.397 (0.261)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.238 (0.212)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.9370856881141663 0.5749831199645996
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14464813470840454
 dro_dro_loss_s,sat_sat_loss_s 0.11612029373645782 1.9257848262786865
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][100/400]	Time 5.611 (5.734)	Data 0.000 (0.171)	Loss 8.757 (8.728)	Loss dro 0.466 (0.188)	Loss sat 0.207 (0.261)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.259 (0.213)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6431119441986084 0.3482254147529602
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1685987263917923
 dro_dro_loss_s,sat_sat_loss_s 0.12685692310333252 1.9247102737426758
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][110/400]	Time 5.547 (5.765)	Data 0.000 (0.208)	Loss 8.403 (8.698)	Loss dro 0.423 (0.200)	Loss sat 0.227 (0.262)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.239 (0.216)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6039495468139648 0.26645106077194214
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15764068067073822
 dro_dro_loss_s,sat_sat_loss_s 0.11650542914867401 1.8846057653427124
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][120/400]	Time 5.558 (5.744)	Data 0.000 (0.190)	Loss 8.514 (8.660)	Loss dro 0.320 (0.205)	Loss sat 0.311 (0.263)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.314 (0.220)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.45590370893478394 0.3415262997150421
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14992952346801758
 dro_dro_loss_s,sat_sat_loss_s 0.1541730761528015 1.9287450313568115
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][130/400]	Time 5.598 (5.727)	Data 0.001 (0.176)	Loss 7.901 (8.643)	Loss dro 0.205 (0.214)	Loss sat 0.133 (0.264)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.314 (0.226)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.36558133363723755 0.16134308278560638
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15602417290210724
 dro_dro_loss_s,sat_sat_loss_s 0.15418727695941925 1.9016666412353516
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][140/400]	Time 5.569 (5.717)	Data 0.000 (0.163)	Loss 7.975 (8.618)	Loss dro 0.253 (0.219)	Loss sat 0.124 (0.264)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.247 (0.230)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.44163936376571655 0.15168842673301697
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15811772644519806
 dro_dro_loss_s,sat_sat_loss_s 0.12105254828929901 1.9200775623321533
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][150/400]	Time 5.581 (5.729)	Data 0.000 (0.174)	Loss 8.313 (8.598)	Loss dro 0.288 (0.222)	Loss sat 0.254 (0.265)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.232 (0.234)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.36997494101524353 0.3066113591194153
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.17183494567871094
 dro_dro_loss_s,sat_sat_loss_s 0.11353804171085358 1.9328911304473877
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][160/400]	Time 5.566 (5.754)	Data 0.001 (0.198)	Loss 8.694 (8.588)	Loss dro 0.253 (0.227)	Loss sat 0.456 (0.269)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.395 (0.239)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3356548547744751 0.4766841232776642
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15581615269184113
 dro_dro_loss_s,sat_sat_loss_s 0.19461774826049805 1.9065968990325928
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][170/400]	Time 5.579 (5.744)	Data 0.000 (0.186)	Loss 8.073 (8.575)	Loss dro 0.297 (0.233)	Loss sat 0.214 (0.269)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.303 (0.245)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3939521610736847 0.22448746860027313
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14991727471351624
 dro_dro_loss_s,sat_sat_loss_s 0.1489884853363037 1.886666178703308
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][180/400]	Time 5.604 (5.734)	Data 0.000 (0.176)	Loss 7.975 (8.558)	Loss dro 0.216 (0.235)	Loss sat 0.237 (0.273)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.244 (0.246)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.30111420154571533 0.2666666507720947
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15710769593715668
 dro_dro_loss_s,sat_sat_loss_s 0.1194588840007782 1.9068214893341064
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][190/400]	Time 5.548 (5.744)	Data 0.000 (0.184)	Loss 8.149 (8.540)	Loss dro 0.238 (0.234)	Loss sat 0.272 (0.275)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.381 (0.250)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.28777971863746643 0.30896255373954773
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15222810208797455
 dro_dro_loss_s,sat_sat_loss_s 0.1877427101135254 1.876833438873291
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][200/400]	Time 5.583 (5.734)	Data 0.000 (0.175)	Loss 8.177 (8.537)	Loss dro 0.259 (0.238)	Loss sat 0.313 (0.277)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.304 (0.254)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3093341886997223 0.3839220702648163
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.148568257689476
 dro_dro_loss_s,sat_sat_loss_s 0.14917974174022675 1.878293752670288
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][210/400]	Time 5.602 (5.753)	Data 0.001 (0.193)	Loss 8.326 (8.517)	Loss dro 0.249 (0.238)	Loss sat 0.327 (0.277)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.317 (0.257)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3080761730670929 0.33962440490722656
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.170444056391716
 dro_dro_loss_s,sat_sat_loss_s 0.15571075677871704 1.8957152366638184
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][220/400]	Time 5.603 (5.743)	Data 0.000 (0.184)	Loss 8.174 (8.506)	Loss dro 0.354 (0.241)	Loss sat 0.086 (0.276)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.408 (0.261)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.4174739420413971 0.09384572505950928
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16218633949756622
 dro_dro_loss_s,sat_sat_loss_s 0.20093326270580292 1.9055291414260864
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][230/400]	Time 5.591 (5.737)	Data 0.000 (0.176)	Loss 9.384 (8.495)	Loss dro 0.612 (0.242)	Loss sat 0.461 (0.278)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.368 (0.264)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6886647939682007 0.49858832359313965
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15010620653629303
 dro_dro_loss_s,sat_sat_loss_s 0.18116647005081177 1.914376974105835
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][240/400]	Time 5.560 (5.744)	Data 0.000 (0.183)	Loss 8.926 (8.501)	Loss dro 0.369 (0.247)	Loss sat 0.503 (0.282)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.338 (0.269)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.40480145812034607 0.5541350841522217
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16243219375610352
 dro_dro_loss_s,sat_sat_loss_s 0.16611498594284058 1.8973404169082642
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][250/400]	Time 5.626 (5.737)	Data 0.000 (0.176)	Loss 8.020 (8.488)	Loss dro 0.289 (0.248)	Loss sat 0.192 (0.282)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.328 (0.272)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.318742573261261 0.23463110625743866
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1493203192949295
 dro_dro_loss_s,sat_sat_loss_s 0.16172772645950317 1.8895189762115479
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][260/400]	Time 5.586 (5.731)	Data 0.000 (0.169)	Loss 8.284 (8.479)	Loss dro 0.296 (0.251)	Loss sat 0.306 (0.281)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.320 (0.273)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.32903698086738586 0.3522735834121704
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15245762467384338
 dro_dro_loss_s,sat_sat_loss_s 0.15698903799057007 1.8928329944610596
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][270/400]	Time 5.480 (5.746)	Data 0.001 (0.184)	Loss 8.012 (8.470)	Loss dro 0.198 (0.251)	Loss sat 0.256 (0.283)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.401 (0.276)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.24205546081066132 0.2789054811000824
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14406923949718475
 dro_dro_loss_s,sat_sat_loss_s 0.19793227314949036 1.8797457218170166
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][280/400]	Time 5.555 (5.739)	Data 0.000 (0.177)	Loss 8.637 (8.463)	Loss dro 0.301 (0.250)	Loss sat 0.315 (0.285)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.500 (0.280)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3420788049697876 0.3510996997356415
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14591075479984283
 dro_dro_loss_s,sat_sat_loss_s 0.24747008085250854 1.9240189790725708
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][290/400]	Time 5.566 (5.744)	Data 0.001 (0.182)	Loss 8.269 (8.456)	Loss dro 0.210 (0.250)	Loss sat 0.390 (0.286)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.326 (0.283)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2425563931465149 0.4401436448097229
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14578548073768616
 dro_dro_loss_s,sat_sat_loss_s 0.16044817864894867 1.8974149227142334
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][300/400]	Time 5.573 (5.734)	Data 0.000 (0.176)	Loss 7.827 (8.446)	Loss dro 0.314 (0.251)	Loss sat 0.102 (0.286)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.377 (0.285)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3450591564178467 0.12684938311576843
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14050093293190002
 dro_dro_loss_s,sat_sat_loss_s 0.18598535656929016 1.8657625913619995
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][310/400]	Time 5.514 (5.728)	Data 0.001 (0.170)	Loss 7.973 (8.440)	Loss dro 0.234 (0.253)	Loss sat 0.246 (0.284)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.376 (0.289)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2634935677051544 0.2733800411224365
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1436353176832199
 dro_dro_loss_s,sat_sat_loss_s 0.18519122898578644 1.8666808605194092
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][320/400]	Time 5.619 (5.742)	Data 0.000 (0.183)	Loss 8.352 (8.433)	Loss dro 0.346 (0.254)	Loss sat 0.272 (0.284)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.375 (0.291)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.38220807909965515 0.2949109375476837
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14824138581752777
 dro_dro_loss_s,sat_sat_loss_s 0.1850772500038147 1.8918421268463135
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][330/400]	Time 8.882 (5.746)	Data 3.335 (0.187)	Loss 9.329 (8.432)	Loss dro 0.501 (0.255)	Loss sat 0.584 (0.287)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.424 (0.294)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5403050780296326 0.6280273795127869
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15345750749111176
 dro_dro_loss_s,sat_sat_loss_s 0.20916765928268433 1.864182710647583
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][340/400]	Time 5.575 (5.740)	Data 0.001 (0.182)	Loss 7.814 (8.424)	Loss dro 0.226 (0.257)	Loss sat 0.172 (0.287)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.335 (0.295)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2470700591802597 0.208144873380661
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15638867020606995
 dro_dro_loss_s,sat_sat_loss_s 0.16463328897953033 1.8649163246154785
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][350/400]	Time 5.619 (5.735)	Data 0.000 (0.177)	Loss 8.616 (8.418)	Loss dro 0.525 (0.259)	Loss sat 0.243 (0.285)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.451 (0.296)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5508641004562378 0.272113561630249
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13604071736335754
 dro_dro_loss_s,sat_sat_loss_s 0.22285406291484833 1.8656558990478516
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][360/400]	Time 5.561 (5.730)	Data 0.001 (0.172)	Loss 8.233 (8.416)	Loss dro 0.286 (0.260)	Loss sat 0.345 (0.286)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.352 (0.300)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3092496395111084 0.38805273175239563
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13676123321056366
 dro_dro_loss_s,sat_sat_loss_s 0.17325598001480103 1.8737006187438965
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][370/400]	Time 5.424 (5.738)	Data 0.000 (0.181)	Loss 7.985 (8.413)	Loss dro 0.158 (0.260)	Loss sat 0.355 (0.288)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.338 (0.302)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.18287284672260284 0.38649600744247437
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12329920381307602
 dro_dro_loss_s,sat_sat_loss_s 0.16637927293777466 1.9049564599990845
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][380/400]	Time 5.619 (5.741)	Data 0.001 (0.185)	Loss 7.808 (8.413)	Loss dro 0.175 (0.261)	Loss sat 0.230 (0.289)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.345 (0.305)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.19477134943008423 0.2567077577114105
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14332731068134308
 dro_dro_loss_s,sat_sat_loss_s 0.17007304728031158 1.8804495334625244
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][390/400]	Time 5.553 (5.735)	Data 0.001 (0.181)	Loss 7.815 (8.403)	Loss dro 0.230 (0.261)	Loss sat 0.206 (0.288)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.353 (0.307)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.25256216526031494 0.23473107814788818
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1281808763742447
 dro_dro_loss_s,sat_sat_loss_s 0.17398950457572937 1.8846931457519531
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [12][400/400]	Time 5.570 (5.731)	Data 0.000 (0.176)	Loss 7.976 (8.401)	Loss dro 0.351 (0.263)	Loss sat 0.120 (0.288)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.337 (0.309)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.37340277433395386 0.14271917939186096
 loss_shared_s,loss_shared 0.0 0.0
@@ -3989,601 +3189,201 @@ config.momentum 0.1
 wise_momentum 0.9
 ==> Statistics for dro epoch 14: 774 clusters outlier 139
 ==> Statistics for sat epoch 14: 821 clusters outlier 18 
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][10/400]	Time 5.579 (6.025)	Data 0.000 (0.474)	Loss 8.591 (8.569)	Loss dro 0.028 (0.031)	Loss sat 0.207 (0.233)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.169 (0.145)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7416195869445801 0.7274142503738403
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15878522396087646
 dro_dro_loss_s,sat_sat_loss_s 0.08135830610990524 1.9187495708465576
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][20/400]	Time 5.567 (5.785)	Data 0.001 (0.237)	Loss 8.406 (8.547)	Loss dro 0.036 (0.028)	Loss sat 0.136 (0.211)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.194 (0.160)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7561699748039246 0.6738629341125488
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13721318542957306
 dro_dro_loss_s,sat_sat_loss_s 0.094245046377182 1.9181294441223145
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][30/400]	Time 5.571 (5.712)	Data 0.000 (0.158)	Loss 9.033 (8.660)	Loss dro 0.062 (0.044)	Loss sat 0.328 (0.223)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.210 (0.175)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.8290020823478699 0.8682924509048462
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1569342315196991
 dro_dro_loss_s,sat_sat_loss_s 0.1018776223063469 1.921636939048767
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][40/400]	Time 5.579 (5.685)	Data 0.001 (0.119)	Loss 8.545 (8.612)	Loss dro 0.014 (0.037)	Loss sat 0.211 (0.208)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.171 (0.170)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7419182658195496 0.7777754664421082
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14277099072933197
 dro_dro_loss_s,sat_sat_loss_s 0.08294607698917389 1.918336033821106
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][50/400]	Time 5.576 (5.726)	Data 0.000 (0.164)	Loss 9.479 (8.629)	Loss dro 0.707 (0.051)	Loss sat 0.100 (0.207)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.186 (0.169)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 1.0874910354614258 0.6743160486221313
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15798094868659973
 dro_dro_loss_s,sat_sat_loss_s 0.09053842723369598 1.9194457530975342
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][60/400]	Time 5.555 (5.791)	Data 0.001 (0.229)	Loss 8.698 (8.604)	Loss dro 0.325 (0.091)	Loss sat 0.343 (0.217)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.210 (0.170)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.686703085899353 0.42486128211021423
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15110033750534058
 dro_dro_loss_s,sat_sat_loss_s 0.10189716517925262 1.922943353652954
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][70/400]	Time 5.451 (5.740)	Data 0.000 (0.196)	Loss 8.012 (8.571)	Loss dro 0.170 (0.117)	Loss sat 0.151 (0.217)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.218 (0.177)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5172566771507263 0.23608046770095825
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15263307094573975
 dro_dro_loss_s,sat_sat_loss_s 0.10620385408401489 1.922594666481018
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][80/400]	Time 5.620 (5.706)	Data 0.001 (0.172)	Loss 8.161 (8.537)	Loss dro 0.241 (0.134)	Loss sat 0.163 (0.219)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.220 (0.181)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5814874172210693 0.2735293507575989
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14991167187690735
 dro_dro_loss_s,sat_sat_loss_s 0.10695447772741318 1.9148966073989868
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][90/400]	Time 5.577 (5.691)	Data 0.000 (0.153)	Loss 8.444 (8.516)	Loss dro 0.184 (0.148)	Loss sat 0.373 (0.224)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.174 (0.181)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5241374969482422 0.5090914368629456
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1523134559392929
 dro_dro_loss_s,sat_sat_loss_s 0.08402286469936371 1.9176959991455078
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][100/400]	Time 5.578 (5.710)	Data 0.001 (0.172)	Loss 8.197 (8.479)	Loss dro 0.226 (0.157)	Loss sat 0.264 (0.221)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.214 (0.183)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.40764015913009644 0.43845734000205994
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13759341835975647
 dro_dro_loss_s,sat_sat_loss_s 0.1042390763759613 1.9268040657043457
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][110/400]	Time 5.568 (5.747)	Data 0.000 (0.207)	Loss 7.881 (8.442)	Loss dro 0.125 (0.164)	Loss sat 0.267 (0.223)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.263 (0.185)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2565224766731262 0.2868908941745758
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1509678214788437
 dro_dro_loss_s,sat_sat_loss_s 0.12869027256965637 1.9057798385620117
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][120/400]	Time 5.556 (5.732)	Data 0.000 (0.190)	Loss 8.251 (8.405)	Loss dro 0.092 (0.167)	Loss sat 0.459 (0.225)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.253 (0.189)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.21231435239315033 0.4905379116535187
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15337085723876953
 dro_dro_loss_s,sat_sat_loss_s 0.12332252413034439 1.9236671924591064
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][130/400]	Time 5.604 (5.718)	Data 0.000 (0.175)	Loss 8.206 (8.383)	Loss dro 0.169 (0.169)	Loss sat 0.343 (0.230)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.245 (0.196)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.29259130358695984 0.3996317684650421
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14863431453704834
 dro_dro_loss_s,sat_sat_loss_s 0.1194552332162857 1.9377933740615845
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][140/400]	Time 5.609 (5.709)	Data 0.000 (0.162)	Loss 8.139 (8.371)	Loss dro 0.284 (0.178)	Loss sat 0.165 (0.230)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.276 (0.198)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.45538175106048584 0.1905287206172943
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15441274642944336
 dro_dro_loss_s,sat_sat_loss_s 0.1354285478591919 1.9254093170166016
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][150/400]	Time 5.611 (5.720)	Data 0.000 (0.174)	Loss 7.925 (8.355)	Loss dro 0.306 (0.186)	Loss sat 0.160 (0.230)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.236 (0.201)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.37608546018600464 0.19337621331214905
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13843727111816406
 dro_dro_loss_s,sat_sat_loss_s 0.1151183694601059 1.9238600730895996
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][160/400]	Time 5.585 (5.745)	Data 0.001 (0.199)	Loss 7.757 (8.324)	Loss dro 0.179 (0.188)	Loss sat 0.179 (0.229)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.307 (0.203)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.24719390273094177 0.19309282302856445
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13628020882606506
 dro_dro_loss_s,sat_sat_loss_s 0.15037769079208374 1.9152826070785522
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][170/400]	Time 5.452 (5.732)	Data 0.001 (0.187)	Loss 7.975 (8.309)	Loss dro 0.248 (0.192)	Loss sat 0.159 (0.230)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.331 (0.207)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.32240191102027893 0.16567754745483398
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13704945147037506
 dro_dro_loss_s,sat_sat_loss_s 0.1628597378730774 1.9419100284576416
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][180/400]	Time 5.573 (5.725)	Data 0.001 (0.177)	Loss 7.588 (8.290)	Loss dro 0.144 (0.192)	Loss sat 0.123 (0.232)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.298 (0.211)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.20518866181373596 0.14256595075130463
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14187335968017578
 dro_dro_loss_s,sat_sat_loss_s 0.1464669406414032 1.9140028953552246
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][190/400]	Time 5.477 (5.714)	Data 0.000 (0.167)	Loss 8.035 (8.281)	Loss dro 0.232 (0.195)	Loss sat 0.266 (0.233)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.239 (0.215)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.32376712560653687 0.3154885470867157
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13663072884082794
 dro_dro_loss_s,sat_sat_loss_s 0.11689789593219757 1.9281327724456787
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][200/400]	Time 5.524 (5.720)	Data 0.001 (0.176)	Loss 7.950 (8.275)	Loss dro 0.227 (0.198)	Loss sat 0.201 (0.236)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.277 (0.218)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2686428427696228 0.2326781153678894
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15412946045398712
 dro_dro_loss_s,sat_sat_loss_s 0.13599488139152527 1.9176453351974487
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][210/400]	Time 5.549 (5.740)	Data 0.001 (0.195)	Loss 7.704 (8.260)	Loss dro 0.152 (0.200)	Loss sat 0.248 (0.237)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.317 (0.220)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.18880367279052734 0.2598515450954437
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13519346714019775
 dro_dro_loss_s,sat_sat_loss_s 0.15572181344032288 1.8772944211959839
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][220/400]	Time 5.382 (5.729)	Data 0.001 (0.186)	Loss 7.884 (8.248)	Loss dro 0.238 (0.203)	Loss sat 0.177 (0.237)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.332 (0.222)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.29582104086875916 0.18682213127613068
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14003188908100128
 dro_dro_loss_s,sat_sat_loss_s 0.1632438600063324 1.9046827554702759
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][230/400]	Time 5.609 (5.720)	Data 0.000 (0.178)	Loss 8.121 (8.240)	Loss dro 0.328 (0.205)	Loss sat 0.192 (0.237)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.308 (0.228)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3866819143295288 0.21181665360927582
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13670924305915833
 dro_dro_loss_s,sat_sat_loss_s 0.15114744007587433 1.9287763833999634
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][240/400]	Time 5.552 (5.712)	Data 0.000 (0.170)	Loss 7.149 (8.221)	Loss dro 0.090 (0.203)	Loss sat 0.048 (0.236)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.248 (0.229)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.13420236110687256 0.05638330802321434
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13130199909210205
 dro_dro_loss_s,sat_sat_loss_s 0.12124906480312347 1.9074935913085938
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][250/400]	Time 5.587 (5.717)	Data 0.000 (0.177)	Loss 8.411 (8.213)	Loss dro 0.278 (0.205)	Loss sat 0.446 (0.238)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.264 (0.231)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3238956928253174 0.5007233619689941
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12723523378372192
 dro_dro_loss_s,sat_sat_loss_s 0.12923672795295715 1.9209840297698975
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][260/400]	Time 5.606 (5.733)	Data 0.001 (0.192)	Loss 7.838 (8.210)	Loss dro 0.276 (0.207)	Loss sat 0.166 (0.240)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.291 (0.232)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.31082990765571594 0.17904174327850342
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13779094815254211
 dro_dro_loss_s,sat_sat_loss_s 0.1424393355846405 1.903090000152588
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][270/400]	Time 5.592 (5.726)	Data 0.001 (0.184)	Loss 7.866 (8.195)	Loss dro 0.129 (0.207)	Loss sat 0.217 (0.239)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.372 (0.234)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.15966267883777618 0.23068682849407196
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16047906875610352
 dro_dro_loss_s,sat_sat_loss_s 0.18346650898456573 1.8952237367630005
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][280/400]	Time 5.630 (5.722)	Data 0.000 (0.178)	Loss 8.397 (8.190)	Loss dro 0.300 (0.209)	Loss sat 0.398 (0.240)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.261 (0.237)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.34445154666900635 0.4382893741130829
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14131079614162445
 dro_dro_loss_s,sat_sat_loss_s 0.12781837582588196 1.9150652885437012
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][290/400]	Time 5.556 (5.726)	Data 0.001 (0.183)	Loss 8.077 (8.181)	Loss dro 0.275 (0.209)	Loss sat 0.280 (0.240)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.259 (0.240)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.30469533801078796 0.3262409269809723
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14858666062355042
 dro_dro_loss_s,sat_sat_loss_s 0.12660977244377136 1.8936779499053955
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][300/400]	Time 5.574 (5.720)	Data 0.000 (0.177)	Loss 7.933 (8.173)	Loss dro 0.286 (0.210)	Loss sat 0.165 (0.240)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.244 (0.240)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.32101333141326904 0.19984520971775055
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15697693824768066
 dro_dro_loss_s,sat_sat_loss_s 0.11953691393136978 1.909186840057373
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][310/400]	Time 5.572 (5.733)	Data 0.000 (0.189)	Loss 8.370 (8.167)	Loss dro 0.438 (0.211)	Loss sat 0.230 (0.241)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.290 (0.241)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.46777841448783875 0.252228319644928
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14147891104221344
 dro_dro_loss_s,sat_sat_loss_s 0.14202962815761566 1.921785831451416
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][320/400]	Time 5.602 (5.728)	Data 0.000 (0.183)	Loss 8.351 (8.163)	Loss dro 0.373 (0.212)	Loss sat 0.290 (0.240)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.257 (0.245)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.41511812806129456 0.3202553391456604
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15282700955867767
 dro_dro_loss_s,sat_sat_loss_s 0.12575972080230713 1.9074862003326416
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][330/400]	Time 5.562 (5.722)	Data 0.000 (0.178)	Loss 7.915 (8.163)	Loss dro 0.207 (0.214)	Loss sat 0.226 (0.242)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.358 (0.247)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.23188339173793793 0.25615954399108887
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12724144756793976
 dro_dro_loss_s,sat_sat_loss_s 0.17644481360912323 1.9176054000854492
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][340/400]	Time 5.563 (5.726)	Data 0.000 (0.182)	Loss 8.815 (8.161)	Loss dro 0.500 (0.216)	Loss sat 0.343 (0.243)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.363 (0.248)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5331325531005859 0.3944167196750641
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14189568161964417
 dro_dro_loss_s,sat_sat_loss_s 0.17870411276817322 1.9051711559295654
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][350/400]	Time 5.527 (5.719)	Data 0.001 (0.177)	Loss 8.002 (8.156)	Loss dro 0.321 (0.218)	Loss sat 0.220 (0.243)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.281 (0.249)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3413033187389374 0.2647387385368347
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13380233943462372
 dro_dro_loss_s,sat_sat_loss_s 0.13756415247917175 1.897848129272461
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][360/400]	Time 5.240 (5.729)	Data 0.000 (0.187)	Loss 7.832 (8.147)	Loss dro 0.315 (0.219)	Loss sat 0.112 (0.241)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.278 (0.251)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.33765825629234314 0.1246345192193985
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14894883334636688
 dro_dro_loss_s,sat_sat_loss_s 0.13630929589271545 1.901102900505066
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][370/400]	Time 5.536 (5.724)	Data 0.000 (0.182)	Loss 7.834 (8.144)	Loss dro 0.268 (0.221)	Loss sat 0.185 (0.241)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.324 (0.252)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2988322973251343 0.20501947402954102
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13188904523849487
 dro_dro_loss_s,sat_sat_loss_s 0.15915298461914062 1.887460708618164
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][380/400]	Time 5.562 (5.721)	Data 0.000 (0.178)	Loss 8.449 (8.138)	Loss dro 0.176 (0.220)	Loss sat 0.531 (0.242)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.335 (0.253)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.19365882873535156 0.5779858827590942
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13343776762485504
 dro_dro_loss_s,sat_sat_loss_s 0.1648295372724533 1.9100182056427002
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][390/400]	Time 5.094 (5.723)	Data 0.000 (0.181)	Loss 8.051 (8.132)	Loss dro 0.294 (0.221)	Loss sat 0.161 (0.241)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.319 (0.254)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3130222260951996 0.18461984395980835
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.16564510762691498
 dro_dro_loss_s,sat_sat_loss_s 0.15646806359291077 1.901853084564209
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [14][400/400]	Time 5.568 (5.720)	Data 0.000 (0.177)	Loss 7.483 (8.132)	Loss dro 0.163 (0.224)	Loss sat 0.163 (0.241)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.284 (0.255)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.17938955128192902 0.18869496881961823
 loss_shared_s,loss_shared 0.0 0.0
@@ -4837,601 +3637,201 @@ config.momentum 0.1
 wise_momentum 0.9
 ==> Statistics for dro epoch 16: 784 clusters outlier 141
 ==> Statistics for sat epoch 16: 834 clusters outlier 22 
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][10/400]	Time 5.556 (6.010)	Data 0.001 (0.477)	Loss 8.585 (8.523)	Loss dro 0.016 (0.024)	Loss sat 0.264 (0.221)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.145 (0.130)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7220598459243774 0.7871290445327759
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14926469326019287
 dro_dro_loss_s,sat_sat_loss_s 0.0696590468287468 1.9183058738708496
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][20/400]	Time 5.592 (5.792)	Data 0.000 (0.239)	Loss 9.298 (8.597)	Loss dro 0.128 (0.034)	Loss sat 0.393 (0.231)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.192 (0.141)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.8930763602256775 0.9399144649505615
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1465533971786499
 dro_dro_loss_s,sat_sat_loss_s 0.09346003830432892 1.9486316442489624
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][30/400]	Time 5.632 (5.726)	Data 0.000 (0.159)	Loss 8.540 (8.615)	Loss dro 0.016 (0.038)	Loss sat 0.227 (0.234)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.161 (0.145)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7592290639877319 0.7789889574050903
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13641561567783356
 dro_dro_loss_s,sat_sat_loss_s 0.07769298553466797 1.921065330505371
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][40/400]	Time 5.399 (5.682)	Data 0.000 (0.120)	Loss 8.538 (8.599)	Loss dro 0.034 (0.033)	Loss sat 0.134 (0.234)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.181 (0.142)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7759655117988586 0.707701563835144
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15522924065589905
 dro_dro_loss_s,sat_sat_loss_s 0.08789782226085663 1.919050931930542
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][50/400]	Time 9.057 (5.712)	Data 3.423 (0.164)	Loss 8.296 (8.599)	Loss dro 0.187 (0.033)	Loss sat 0.089 (0.226)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.115 (0.145)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5460805296897888 0.6831094622612
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15509305894374847
 dro_dro_loss_s,sat_sat_loss_s 0.05496115982532501 1.9201569557189941
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][60/400]	Time 5.608 (5.768)	Data 0.001 (0.227)	Loss 8.257 (8.570)	Loss dro 0.189 (0.074)	Loss sat 0.329 (0.229)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.160 (0.147)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5213229656219482 0.42409658432006836
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14377155900001526
 dro_dro_loss_s,sat_sat_loss_s 0.07720291614532471 1.9195499420166016
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][70/400]	Time 5.498 (5.714)	Data 0.000 (0.195)	Loss 8.580 (8.572)	Loss dro 0.201 (0.106)	Loss sat 0.401 (0.242)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.247 (0.155)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5404947996139526 0.505544126033783
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13717643916606903
 dro_dro_loss_s,sat_sat_loss_s 0.12078031897544861 1.9346507787704468
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][80/400]	Time 5.526 (5.690)	Data 0.000 (0.171)	Loss 8.217 (8.543)	Loss dro 0.203 (0.122)	Loss sat 0.263 (0.245)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.204 (0.161)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.5581469535827637 0.37690573930740356
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1345565766096115
 dro_dro_loss_s,sat_sat_loss_s 0.09919136762619019 1.9222465753555298
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][90/400]	Time 5.448 (5.661)	Data 0.001 (0.152)	Loss 7.906 (8.523)	Loss dro 0.138 (0.145)	Loss sat 0.106 (0.236)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.181 (0.165)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.48540937900543213 0.27240049839019775
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15498147904872894
 dro_dro_loss_s,sat_sat_loss_s 0.08761488646268845 1.9259438514709473
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][100/400]	Time 5.598 (5.683)	Data 0.000 (0.171)	Loss 7.938 (8.513)	Loss dro 0.223 (0.163)	Loss sat 0.211 (0.235)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.218 (0.167)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3563688397407532 0.3413032293319702
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13931047916412354
 dro_dro_loss_s,sat_sat_loss_s 0.10623674094676971 1.9035484790802002
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][110/400]	Time 5.565 (5.724)	Data 0.001 (0.206)	Loss 7.442 (8.467)	Loss dro 0.139 (0.168)	Loss sat 0.110 (0.238)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.187 (0.169)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2747938930988312 0.12603722512722015
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1370663344860077
 dro_dro_loss_s,sat_sat_loss_s 0.09110547602176666 1.918001651763916
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][120/400]	Time 5.595 (5.711)	Data 0.000 (0.189)	Loss 8.428 (8.424)	Loss dro 0.313 (0.173)	Loss sat 0.271 (0.238)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.228 (0.171)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.46023958921432495 0.3027608096599579
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.17202770709991455
 dro_dro_loss_s,sat_sat_loss_s 0.11100567877292633 1.929964303970337
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][130/400]	Time 5.617 (5.701)	Data 0.000 (0.174)	Loss 8.267 (8.411)	Loss dro 0.172 (0.177)	Loss sat 0.431 (0.245)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.196 (0.177)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3270247280597687 0.49418529868125916
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13565050065517426
 dro_dro_loss_s,sat_sat_loss_s 0.0951680988073349 1.9332454204559326
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][140/400]	Time 5.597 (5.689)	Data 0.001 (0.162)	Loss 8.206 (8.381)	Loss dro 0.229 (0.180)	Loss sat 0.321 (0.244)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.222 (0.180)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3806837201118469 0.37966057658195496
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14231537282466888
 dro_dro_loss_s,sat_sat_loss_s 0.10821205377578735 1.9252278804779053
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][150/400]	Time 5.591 (5.703)	Data 0.000 (0.174)	Loss 8.024 (8.371)	Loss dro 0.205 (0.186)	Loss sat 0.288 (0.248)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.256 (0.184)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2752612233161926 0.3479396402835846
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13549606502056122
 dro_dro_loss_s,sat_sat_loss_s 0.1253795474767685 1.925054907798767
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][160/400]	Time 5.579 (5.729)	Data 0.001 (0.198)	Loss 7.780 (8.350)	Loss dro 0.158 (0.188)	Loss sat 0.191 (0.250)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.278 (0.188)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2138460874557495 0.2061215341091156
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15052226185798645
 dro_dro_loss_s,sat_sat_loss_s 0.13624237477779388 1.9212408065795898
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][170/400]	Time 5.600 (5.718)	Data 0.000 (0.187)	Loss 7.893 (8.329)	Loss dro 0.165 (0.191)	Loss sat 0.270 (0.250)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.281 (0.192)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.23949435353279114 0.28040140867233276
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13562218844890594
 dro_dro_loss_s,sat_sat_loss_s 0.137894868850708 1.9223473072052002
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][180/400]	Time 5.479 (5.708)	Data 0.000 (0.176)	Loss 7.890 (8.310)	Loss dro 0.274 (0.194)	Loss sat 0.161 (0.250)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.223 (0.197)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3550076484680176 0.18816007673740387
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1485222429037094
 dro_dro_loss_s,sat_sat_loss_s 0.10871745645999908 1.9192771911621094
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][190/400]	Time 5.437 (5.698)	Data 0.000 (0.167)	Loss 8.282 (8.297)	Loss dro 0.359 (0.196)	Loss sat 0.253 (0.252)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.243 (0.198)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.4478771388530731 0.2817784547805786
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14153830707073212
 dro_dro_loss_s,sat_sat_loss_s 0.11834749579429626 1.9318997859954834
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][200/400]	Time 5.563 (5.708)	Data 0.000 (0.175)	Loss 8.154 (8.275)	Loss dro 0.362 (0.197)	Loss sat 0.250 (0.250)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.217 (0.199)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.41000765562057495 0.26950377225875854
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13704971969127655
 dro_dro_loss_s,sat_sat_loss_s 0.1056385338306427 1.926621675491333
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][210/400]	Time 5.476 (5.727)	Data 0.001 (0.193)	Loss 8.089 (8.266)	Loss dro 0.203 (0.199)	Loss sat 0.207 (0.252)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.366 (0.203)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.24065114557743073 0.21751545369625092
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1564042866230011
 dro_dro_loss_s,sat_sat_loss_s 0.18015015125274658 1.936293363571167
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][220/400]	Time 5.301 (5.717)	Data 0.000 (0.184)	Loss 7.695 (8.250)	Loss dro 0.158 (0.199)	Loss sat 0.300 (0.253)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.163 (0.206)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.1887681931257248 0.3293684124946594
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1347704976797104
 dro_dro_loss_s,sat_sat_loss_s 0.07844579219818115 1.9097764492034912
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][230/400]	Time 5.559 (5.710)	Data 0.000 (0.176)	Loss 7.864 (8.230)	Loss dro 0.147 (0.198)	Loss sat 0.313 (0.253)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.227 (0.206)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.18510746955871582 0.35604020953178406
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14278189837932587
 dro_dro_loss_s,sat_sat_loss_s 0.11077205091714859 1.9116108417510986
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][240/400]	Time 5.406 (5.701)	Data 0.000 (0.169)	Loss 8.241 (8.217)	Loss dro 0.255 (0.198)	Loss sat 0.321 (0.255)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.287 (0.207)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3133409023284912 0.35118240118026733
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1472393125295639
 dro_dro_loss_s,sat_sat_loss_s 0.14066371321678162 1.9189050197601318
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][250/400]	Time 5.528 (5.707)	Data 0.001 (0.175)	Loss 7.747 (8.205)	Loss dro 0.273 (0.200)	Loss sat 0.117 (0.253)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.250 (0.209)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.30285829305648804 0.1399492472410202
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1385781317949295
 dro_dro_loss_s,sat_sat_loss_s 0.12238292396068573 1.9248547554016113
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][260/400]	Time 5.637 (5.700)	Data 0.001 (0.168)	Loss 8.120 (8.198)	Loss dro 0.245 (0.201)	Loss sat 0.243 (0.253)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.359 (0.212)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.269451767206192 0.28839510679244995
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13599549233913422
 dro_dro_loss_s,sat_sat_loss_s 0.1770050823688507 1.928305745124817
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][270/400]	Time 5.365 (5.714)	Data 0.001 (0.183)	Loss 7.755 (8.199)	Loss dro 0.185 (0.204)	Loss sat 0.170 (0.254)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.303 (0.217)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.21496254205703735 0.1858491599559784
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1358589231967926
 dro_dro_loss_s,sat_sat_loss_s 0.14866869151592255 1.9310235977172852
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][280/400]	Time 5.584 (5.708)	Data 0.001 (0.176)	Loss 8.147 (8.193)	Loss dro 0.214 (0.205)	Loss sat 0.399 (0.255)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.227 (0.219)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.24832968413829803 0.43872928619384766
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13007989525794983
 dro_dro_loss_s,sat_sat_loss_s 0.1111253947019577 1.9292882680892944
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][290/400]	Time 5.616 (5.703)	Data 0.000 (0.170)	Loss 8.206 (8.184)	Loss dro 0.178 (0.205)	Loss sat 0.468 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.233 (0.220)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.20566226541996002 0.5363370180130005
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1266053020954132
 dro_dro_loss_s,sat_sat_loss_s 0.11310363560914993 1.923201322555542
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][300/400]	Time 5.588 (5.710)	Data 0.000 (0.176)	Loss 7.871 (8.176)	Loss dro 0.304 (0.207)	Loss sat 0.168 (0.256)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.273 (0.222)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.33121389150619507 0.193171888589859
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1369849294424057
 dro_dro_loss_s,sat_sat_loss_s 0.1336900293827057 1.9025747776031494
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][310/400]	Time 5.559 (5.704)	Data 0.000 (0.170)	Loss 8.304 (8.167)	Loss dro 0.305 (0.208)	Loss sat 0.316 (0.254)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.289 (0.224)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3347228765487671 0.37097495794296265
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1444956511259079
 dro_dro_loss_s,sat_sat_loss_s 0.14182201027870178 1.915191650390625
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][320/400]	Time 5.352 (5.717)	Data 0.000 (0.182)	Loss 7.592 (8.155)	Loss dro 0.136 (0.208)	Loss sat 0.233 (0.254)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.219 (0.225)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.15686245262622833 0.25935178995132446
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1279742270708084
 dro_dro_loss_s,sat_sat_loss_s 0.10672006011009216 1.9239099025726318
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][330/400]	Time 5.540 (5.712)	Data 0.001 (0.177)	Loss 8.192 (8.149)	Loss dro 0.185 (0.208)	Loss sat 0.344 (0.255)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.364 (0.227)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.21792863309383392 0.37780264019966125
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14407765865325928
 dro_dro_loss_s,sat_sat_loss_s 0.17962861061096191 1.9086430072784424
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][340/400]	Time 5.602 (5.706)	Data 0.000 (0.172)	Loss 8.104 (8.147)	Loss dro 0.310 (0.209)	Loss sat 0.272 (0.256)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.313 (0.229)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3368802070617676 0.30795741081237793
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.127386212348938
 dro_dro_loss_s,sat_sat_loss_s 0.15358085930347443 1.901206612586975
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][350/400]	Time 5.268 (5.710)	Data 0.000 (0.176)	Loss 8.471 (8.143)	Loss dro 0.460 (0.210)	Loss sat 0.221 (0.256)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.268 (0.231)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.49595898389816284 0.24106471240520477
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14317883551120758
 dro_dro_loss_s,sat_sat_loss_s 0.13120071589946747 1.9535975456237793
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][360/400]	Time 5.521 (5.705)	Data 0.000 (0.171)	Loss 8.369 (8.139)	Loss dro 0.328 (0.210)	Loss sat 0.386 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.279 (0.234)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3521260619163513 0.44487348198890686
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12171447277069092
 dro_dro_loss_s,sat_sat_loss_s 0.13682839274406433 1.9220612049102783
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][370/400]	Time 5.458 (5.715)	Data 0.001 (0.181)	Loss 7.837 (8.134)	Loss dro 0.243 (0.211)	Loss sat 0.233 (0.256)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.241 (0.235)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2629840075969696 0.25341033935546875
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1350623071193695
 dro_dro_loss_s,sat_sat_loss_s 0.11781200766563416 1.9125926494598389
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][380/400]	Time 5.580 (5.711)	Data 0.000 (0.177)	Loss 8.147 (8.128)	Loss dro 0.239 (0.211)	Loss sat 0.368 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.277 (0.236)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.26248899102211 0.403916597366333
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12929414212703705
 dro_dro_loss_s,sat_sat_loss_s 0.13555185496807098 1.9147369861602783
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][390/400]	Time 5.613 (5.706)	Data 0.000 (0.172)	Loss 8.196 (8.122)	Loss dro 0.250 (0.212)	Loss sat 0.329 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.318 (0.237)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2770938575267792 0.370035320520401
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12709775567054749
 dro_dro_loss_s,sat_sat_loss_s 0.1564951241016388 1.930153727531433
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [16][400/400]	Time 5.506 (5.710)	Data 0.000 (0.176)	Loss 8.190 (8.120)	Loss dro 0.225 (0.213)	Loss sat 0.314 (0.256)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.304 (0.239)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.24357165396213531 0.3650187849998474
 loss_shared_s,loss_shared 0.0 0.0
@@ -5685,601 +4085,201 @@ config.momentum 0.1
 wise_momentum 0.9
 ==> Statistics for dro epoch 18: 786 clusters outlier 153
 ==> Statistics for sat epoch 18: 834 clusters outlier 12 
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][10/400]	Time 5.596 (6.079)	Data 0.000 (0.477)	Loss 8.488 (8.430)	Loss dro 0.007 (0.019)	Loss sat 0.220 (0.203)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.139 (0.144)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7162360548973083 0.7344820499420166
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15273430943489075
 dro_dro_loss_s,sat_sat_loss_s 0.0666692927479744 1.9192695617675781
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][20/400]	Time 5.546 (5.829)	Data 0.001 (0.239)	Loss 8.910 (8.537)	Loss dro 0.103 (0.031)	Loss sat 0.340 (0.225)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.154 (0.147)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.8637393712997437 0.873809814453125
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13337217271327972
 dro_dro_loss_s,sat_sat_loss_s 0.07391089200973511 1.92070472240448
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][30/400]	Time 5.569 (5.740)	Data 0.000 (0.159)	Loss 8.638 (8.607)	Loss dro 0.020 (0.035)	Loss sat 0.195 (0.239)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.186 (0.154)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7709113359451294 0.7427173852920532
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15855304896831512
 dro_dro_loss_s,sat_sat_loss_s 0.09022343158721924 1.9182958602905273
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][40/400]	Time 5.576 (5.707)	Data 0.000 (0.120)	Loss 8.336 (8.604)	Loss dro 0.005 (0.030)	Loss sat 0.148 (0.237)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.120 (0.148)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.7503262758255005 0.7179864645004272
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1407196968793869
 dro_dro_loss_s,sat_sat_loss_s 0.0571645051240921 1.9191854000091553
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][50/400]	Time 8.868 (5.750)	Data 3.235 (0.160)	Loss 9.001 (8.600)	Loss dro 0.433 (0.037)	Loss sat 0.177 (0.221)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.157 (0.151)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.8509337902069092 0.7550560235977173
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14287197589874268
 dro_dro_loss_s,sat_sat_loss_s 0.07582692056894302 1.919891357421875
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][60/400]	Time 5.617 (5.812)	Data 0.000 (0.225)	Loss 8.449 (8.574)	Loss dro 0.329 (0.078)	Loss sat 0.292 (0.229)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.181 (0.152)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6475620269775391 0.3697963356971741
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13957446813583374
 dro_dro_loss_s,sat_sat_loss_s 0.08781447261571884 1.9220106601715088
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][70/400]	Time 5.622 (5.773)	Data 0.000 (0.193)	Loss 8.449 (8.546)	Loss dro 0.248 (0.101)	Loss sat 0.301 (0.237)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.178 (0.158)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6270247101783752 0.3912509083747864
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15056906640529633
 dro_dro_loss_s,sat_sat_loss_s 0.08598881959915161 1.9279626607894897
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][80/400]	Time 5.595 (5.753)	Data 0.000 (0.169)	Loss 8.491 (8.538)	Loss dro 0.191 (0.124)	Loss sat 0.290 (0.240)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.297 (0.165)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.558253288269043 0.40550005435943604
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1497550755739212
 dro_dro_loss_s,sat_sat_loss_s 0.1458585262298584 1.924238681793213
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][90/400]	Time 5.576 (5.735)	Data 0.000 (0.150)	Loss 7.977 (8.499)	Loss dro 0.255 (0.137)	Loss sat 0.133 (0.237)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.178 (0.166)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.6069357991218567 0.25209131836891174
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13214018940925598
 dro_dro_loss_s,sat_sat_loss_s 0.0858810544013977 1.9110851287841797
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][100/400]	Time 5.617 (5.751)	Data 0.000 (0.168)	Loss 7.964 (8.473)	Loss dro 0.292 (0.151)	Loss sat 0.155 (0.234)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.153 (0.166)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.4683811664581299 0.28960463404655457
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13837265968322754
 dro_dro_loss_s,sat_sat_loss_s 0.07391364872455597 1.9217798709869385
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][110/400]	Time 5.582 (5.785)	Data 0.000 (0.204)	Loss 7.906 (8.431)	Loss dro 0.221 (0.158)	Loss sat 0.236 (0.233)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.176 (0.168)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.36804860830307007 0.2484033852815628
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14906685054302216
 dro_dro_loss_s,sat_sat_loss_s 0.08512325584888458 1.9149672985076904
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][120/400]	Time 5.597 (5.767)	Data 0.000 (0.187)	Loss 7.510 (8.387)	Loss dro 0.113 (0.163)	Loss sat 0.149 (0.233)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.200 (0.170)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2550703287124634 0.16144122183322906
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14531920850276947
 dro_dro_loss_s,sat_sat_loss_s 0.09722715616226196 1.9096169471740723
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][130/400]	Time 5.575 (5.747)	Data 0.000 (0.172)	Loss 8.297 (8.363)	Loss dro 0.202 (0.167)	Loss sat 0.350 (0.236)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.268 (0.177)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.36437129974365234 0.386867493391037
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14791320264339447
 dro_dro_loss_s,sat_sat_loss_s 0.13119938969612122 1.9245672225952148
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][140/400]	Time 5.601 (5.735)	Data 0.001 (0.160)	Loss 8.288 (8.362)	Loss dro 0.276 (0.172)	Loss sat 0.339 (0.245)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.182 (0.181)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.44273966550827026 0.37995922565460205
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14539989829063416
 dro_dro_loss_s,sat_sat_loss_s 0.08832135796546936 1.9249427318572998
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][150/400]	Time 5.611 (5.746)	Data 0.000 (0.172)	Loss 7.547 (8.334)	Loss dro 0.203 (0.175)	Loss sat 0.099 (0.245)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.239 (0.183)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2717387080192566 0.13081982731819153
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13123100996017456
 dro_dro_loss_s,sat_sat_loss_s 0.11657312512397766 1.9194756746292114
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][160/400]	Time 5.564 (5.769)	Data 0.001 (0.196)	Loss 8.528 (8.323)	Loss dro 0.256 (0.179)	Loss sat 0.476 (0.249)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.288 (0.188)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.3365447223186493 0.49395832419395447
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12756581604480743
 dro_dro_loss_s,sat_sat_loss_s 0.1409687101840973 1.942735195159912
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][170/400]	Time 5.578 (5.755)	Data 0.000 (0.184)	Loss 7.358 (8.300)	Loss dro 0.142 (0.181)	Loss sat 0.093 (0.249)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.221 (0.191)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.20751678943634033 0.09807819128036499
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13042627274990082
 dro_dro_loss_s,sat_sat_loss_s 0.10761640965938568 1.9222216606140137
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][180/400]	Time 5.592 (5.746)	Data 0.000 (0.174)	Loss 8.161 (8.278)	Loss dro 0.197 (0.181)	Loss sat 0.371 (0.250)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.264 (0.193)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.27921101450920105 0.40339478850364685
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13278523087501526
 dro_dro_loss_s,sat_sat_loss_s 0.12915068864822388 1.9268879890441895
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][190/400]	Time 5.551 (5.738)	Data 0.000 (0.165)	Loss 8.033 (8.260)	Loss dro 0.180 (0.182)	Loss sat 0.316 (0.251)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.230 (0.196)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2519588768482208 0.3526597321033478
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.15214435756206512
 dro_dro_loss_s,sat_sat_loss_s 0.1120828241109848 1.9161094427108765
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][200/400]	Time 5.544 (5.746)	Data 0.000 (0.173)	Loss 8.024 (8.238)	Loss dro 0.214 (0.182)	Loss sat 0.261 (0.249)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.289 (0.198)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.262358158826828 0.3008068799972534
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1451517939567566
 dro_dro_loss_s,sat_sat_loss_s 0.14188611507415771 1.9168589115142822
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][210/400]	Time 5.595 (5.764)	Data 0.001 (0.190)	Loss 8.526 (8.228)	Loss dro 0.279 (0.185)	Loss sat 0.373 (0.249)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.375 (0.203)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.32333314418792725 0.3912278115749359
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14220698177814484
 dro_dro_loss_s,sat_sat_loss_s 0.18472355604171753 1.9369646310806274
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][220/400]	Time 4.847 (5.752)	Data 0.000 (0.182)	Loss 8.171 (8.225)	Loss dro 0.168 (0.187)	Loss sat 0.441 (0.253)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.201 (0.205)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2053556740283966 0.4756189286708832
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14289411902427673
 dro_dro_loss_s,sat_sat_loss_s 0.09766910970211029 1.9301276206970215
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][230/400]	Time 5.601 (5.746)	Data 0.000 (0.174)	Loss 7.736 (8.208)	Loss dro 0.160 (0.189)	Loss sat 0.205 (0.252)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.309 (0.207)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2021397352218628 0.23133566975593567
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1367814540863037
 dro_dro_loss_s,sat_sat_loss_s 0.1516634225845337 1.9061729907989502
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][240/400]	Time 5.596 (5.738)	Data 0.000 (0.167)	Loss 7.831 (8.204)	Loss dro 0.211 (0.190)	Loss sat 0.141 (0.253)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.292 (0.212)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.28285443782806396 0.17905613780021667
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14698714017868042
 dro_dro_loss_s,sat_sat_loss_s 0.1431451141834259 1.9226617813110352
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][250/400]	Time 5.504 (5.744)	Data 0.000 (0.173)	Loss 7.953 (8.192)	Loss dro 0.168 (0.190)	Loss sat 0.300 (0.252)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.269 (0.215)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.19975946843624115 0.33314502239227295
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1460174173116684
 dro_dro_loss_s,sat_sat_loss_s 0.1318049132823944 1.9139806032180786
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][260/400]	Time 5.453 (5.737)	Data 0.000 (0.166)	Loss 7.840 (8.187)	Loss dro 0.322 (0.194)	Loss sat 0.129 (0.250)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.227 (0.219)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.35816001892089844 0.1516091525554657
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13740594685077667
 dro_dro_loss_s,sat_sat_loss_s 0.11085113883018494 1.926601529121399
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][270/400]	Time 5.609 (5.751)	Data 0.000 (0.181)	Loss 8.122 (8.171)	Loss dro 0.142 (0.194)	Loss sat 0.304 (0.249)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.455 (0.220)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.16370847821235657 0.3225782811641693
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13748423755168915
 dro_dro_loss_s,sat_sat_loss_s 0.2245568037033081 1.9163343906402588
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][280/400]	Time 5.605 (5.742)	Data 0.000 (0.175)	Loss 7.590 (8.170)	Loss dro 0.227 (0.196)	Loss sat 0.027 (0.250)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.336 (0.225)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2617454528808594 0.030837131664156914
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13813285529613495
 dro_dro_loss_s,sat_sat_loss_s 0.16537994146347046 1.925283670425415
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][290/400]	Time 5.570 (5.736)	Data 0.000 (0.169)	Loss 7.778 (8.159)	Loss dro 0.201 (0.196)	Loss sat 0.261 (0.251)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.248 (0.225)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.23857498168945312 0.28561776876449585
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12557144463062286
 dro_dro_loss_s,sat_sat_loss_s 0.12132309377193451 1.9086079597473145
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][300/400]	Time 5.300 (5.739)	Data 0.000 (0.174)	Loss 7.825 (8.154)	Loss dro 0.153 (0.197)	Loss sat 0.215 (0.253)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.355 (0.227)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.17170819640159607 0.23543991148471832
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13761691749095917
 dro_dro_loss_s,sat_sat_loss_s 0.1745159924030304 1.9191645383834839
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][310/400]	Time 5.605 (5.733)	Data 0.000 (0.169)	Loss 8.055 (8.156)	Loss dro 0.191 (0.200)	Loss sat 0.336 (0.255)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.248 (0.228)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.21736830472946167 0.385293185710907
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14030401408672333
 dro_dro_loss_s,sat_sat_loss_s 0.12094400078058243 1.925910472869873
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][320/400]	Time 5.613 (5.744)	Data 0.000 (0.181)	Loss 7.726 (8.151)	Loss dro 0.176 (0.202)	Loss sat 0.258 (0.255)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.230 (0.230)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.19361631572246552 0.2819433808326721
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13361142575740814
 dro_dro_loss_s,sat_sat_loss_s 0.11256910115480423 1.910886287689209
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][330/400]	Time 5.596 (5.739)	Data 0.001 (0.175)	Loss 8.029 (8.150)	Loss dro 0.242 (0.203)	Loss sat 0.269 (0.256)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.285 (0.232)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2730744183063507 0.2902972400188446
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1462089866399765
 dro_dro_loss_s,sat_sat_loss_s 0.13950122892856598 1.9071227312088013
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][340/400]	Time 5.583 (5.735)	Data 0.000 (0.170)	Loss 7.598 (8.141)	Loss dro 0.232 (0.203)	Loss sat 0.134 (0.255)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.256 (0.234)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.2589622735977173 0.1483229696750641
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12148416042327881
 dro_dro_loss_s,sat_sat_loss_s 0.12534883618354797 1.9226655960083008
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][350/400]	Time 5.583 (5.740)	Data 0.000 (0.175)	Loss 7.665 (8.136)	Loss dro 0.147 (0.203)	Loss sat 0.222 (0.256)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.249 (0.236)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.16290482878684998 0.25297826528549194
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.1378369927406311
 dro_dro_loss_s,sat_sat_loss_s 0.12191210687160492 1.9149999618530273
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][360/400]	Time 5.600 (5.736)	Data 0.000 (0.170)	Loss 7.845 (8.127)	Loss dro 0.188 (0.202)	Loss sat 0.269 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.239 (0.236)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.20733843743801117 0.3133116662502289
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.14217133820056915
 dro_dro_loss_s,sat_sat_loss_s 0.11693751811981201 1.9075329303741455
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][370/400]	Time 5.870 (5.747)	Data 0.000 (0.180)	Loss 7.813 (8.123)	Loss dro 0.159 (0.203)	Loss sat 0.263 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.266 (0.238)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.17747952044010162 0.29005685448646545
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.13234010338783264
 dro_dro_loss_s,sat_sat_loss_s 0.1299348771572113 1.9311944246292114
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][380/400]	Time 5.599 (5.742)	Data 0.000 (0.175)	Loss 7.683 (8.118)	Loss dro 0.227 (0.204)	Loss sat 0.189 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.224 (0.239)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.24625806510448456 0.2064761221408844
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.12818823754787445
 dro_dro_loss_s,sat_sat_loss_s 0.10904335975646973 1.9234508275985718
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][390/400]	Time 5.606 (5.738)	Data 0.000 (0.171)	Loss 8.007 (8.111)	Loss dro 0.304 (0.204)	Loss sat 0.181 (0.257)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.392 (0.240)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.32802125811576843 0.20064577460289001
 loss_shared_s,loss_shared 0.0 0.0
 dro_sat_loss_s,sat_dro_loss_s 0.0 0.11759014427661896
 dro_dro_loss_s,sat_sat_loss_s 0.1932685375213623 1.9183681011199951
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
-epoch % 2 == 0
 Epoch: [18][400/400]	Time 5.559 (5.741)	Data 0.000 (0.175)	Loss 7.980 (8.111)	Loss dro 0.233 (0.205)	Loss sat 0.342 (0.258)	camera dro 0.000 (0.000)	camera sat 0.000 (0.000)	dro_sat_loss_log 0.000 (0.000)	sat_dro_loss_log 0.000 (0.000)	dro_dro_loss_log 0.242 (0.242)	sat_sat_loss_log 0.000 (0.000)	
 loss_dro_s,loss_sat_s 0.24970440566539764 0.390364408493042
 loss_shared_s,loss_shared 0.0 0.0
