@@ -2,7 +2,7 @@
 using model_type: convnext_tiny as a backbone
 https://dl.fbaipublicfiles.com/convnext/convnext_tiny_22k_1k_224.pth
 
-Model:adjust model: handcraft convnext-base
+Model:adjust model: handcraft convnext-tiny
 total parameters in model: 28.59M
 
 weight_infonce:1.0
