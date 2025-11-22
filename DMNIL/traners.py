@@ -430,7 +430,7 @@ class Trainer_DMNIL(object):
             loss_sat_log.update(loss_sat.item())
             dro_sat_loss_log.update(dro_sat_loss.item())
             dro_dro_loss_log.update(dro_dro_loss.item())
-
+            sat_dro_loss_log.update(sat_dro_loss.item())
             # print log
             batch_time.update(time.time() - end)
             end = time.time()
