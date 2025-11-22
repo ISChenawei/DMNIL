@@ -346,7 +346,7 @@ class Trainer_DMNIL(object):
                 mutual_info = (p * p.log()).sum(dim=1).mean().clamp_min(0)
                 sat_sat_loss_s += 0.1 * mutual_info
                 # print('sat_sat_loss sat_sat_loss_s',sat_sat_loss.size(),sat_sat_loss_s.size())
-                sat_sat_loss_s=sat_sat_loss_s*0
+                sat_sat_loss_s=sat_sat_loss_s
                 # #################dro-dro
 
                 with torch.no_grad():
@@ -405,7 +405,6 @@ class Trainer_DMNIL(object):
                 p = (p + epsilon) / (1 + epsilon * p.size(1))
                 mutual_info = (p * p.log()).sum(dim=1).mean().clamp_min(0)
                 dro_dro_loss_s += 0.1 * mutual_info
-                dro_dro_loss_s=dro_dro_loss_s*0
             if epoch >= self.cmlabel:
                 loss = (loss_dro + loss_sat + loss_sat_s + loss_dro_s) + 0.1 * (
                             dro_dro_loss + sat_sat_loss + dro_dro_loss_s + sat_sat_loss_s) + 0.1 * (
