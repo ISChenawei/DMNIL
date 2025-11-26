@@ -70,7 +70,7 @@ parser.add_argument(
 python train.py --only_test False
 
 python train.py --only_test True --ckpt_path /path/to/your/checkpoint.pth
-
+```
 SUES-200 Dataset Configuration
 ```
 The remaining code is scheduled to be updated in the near future.
