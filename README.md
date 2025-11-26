@@ -62,9 +62,9 @@ parser.add_argument(
     default='/your/path/University-1652',
     type=str
 )
-Train
+```
+Train and Test
 train.py, with --only_test = False.
-
 Test: run train.py, with --only_test = True, and choose the model in --ckpt_path.
 ```
 For SUES-200 Dataset
