@@ -37,6 +37,16 @@ Please prepare [University-1652](https://github.com/layumi/University1652-Baseli
 
 ### Process University-1652 Dataset  
 ```
+# 1. U1652_dro.py
+root = '/your/path/University-1652'
+# 2. U1652_sat.py 
+root = '/your/path/University-1652'
+# 3. train/test
+parser.add_argument(
+    '--data_dir',
+    default='/your/path/University-1652',
+    type=str
+)
 run process_data/porcess_U1652.py
 ```
 ### Process SUES-200 Dataset  
