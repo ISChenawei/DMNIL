@@ -191,7 +191,7 @@ class Configuration:
         parser = argparse.ArgumentParser(description='Train and Test on University-1652')
 
         # Added for your modification
-        parser.add_argument('--model', default='8', type=str, help='backbone model')
+        parser.add_argument('--model', default='convnext-tiny', type=str, help='backbone model')
         parser.add_argument('--handcraft_model', default=True, type=bool, help='use modified backbone')
         parser.add_argument('--img_size', default=384, type=int, help='input image size')
         parser.add_argument('--height', default=384, type=int, help='input image height')
@@ -200,7 +200,7 @@ class Configuration:
         parser.add_argument('--record', default=True, type=bool, help='use tensorboard to record training procedure')
 
         # Model Config
-        parser.add_argument('--nclasses', default=768, type=int, help='1652场景的类别数')
+        parser.add_argument('--nclasses', default=701, type=int, help='1652场景的类别数')
         parser.add_argument('--block', default=1, type=int)
         parser.add_argument('--triplet_loss', default=0.3, type=float)
         parser.add_argument('--resnet', default=False, type=bool)
@@ -208,9 +208,9 @@ class Configuration:
         # Our tricks
         # --
         parser.add_argument('--only_test', default=False, type=bool, help='use pretrained model to test')
-        parser.add_argument('--ckpt_path',default='checkpoints/university/8',
+        parser.add_argument('--ckpt_path',default='/your/path',
                             type=str, help='path to pretrained checkpoint file')
-        parser.add_argument('--data_folder', default='DMNIL/dataset', type=str)
+        parser.add_argument('--data_folder', default='/your/path/', type=str)
         # Training Config
         parser.add_argument('--mixed_precision', default=True, type=bool)
         parser.add_argument('--custom_sampling', default=True, type=bool)
@@ -249,7 +249,7 @@ class Configuration:
         parser.add_argument('--step-size', type=int, default=20)
         # Dataset Config
         parser.add_argument('--dataset', default='U1652-D2S', type=str, help="'U1652-D2S' | 'U1652-S2D'")
-        parser.add_argument('--data_dir', default='/home/hk/PAPER/UCRVS/DMNIL/dataset', type=str)
+        parser.add_argument('--data_dir', default='/your/path/dataset', type=str)
         parser.add_argument('--dataset_name', default='U1652', type=str)
         parser.add_argument('--iters', type=int, default=400)
         # Augment Images Config
