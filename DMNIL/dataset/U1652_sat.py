@@ -20,7 +20,7 @@ class U1652_sat(BaseImageDataset):
 
     def __init__(self, root, verbose=True, **kwargs):
         super(U1652_sat, self).__init__()
-        root='sample4geo/dataset'
+        root='/your/path/dataset'
         # print('regdb_rgb',trial)
         self.dataset_dir = osp.join(root, self.dataset_dir)
         self.train_dir = osp.join(self.dataset_dir, 'train/satellite')
@@ -87,5 +87,6 @@ class U1652_sat(BaseImageDataset):
             if relabel:
                 pid = pid2label[pid]
             dataset.append((img_path, pid, camid))
+
 
         return dataset
