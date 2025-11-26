@@ -49,29 +49,33 @@ run process_data/porcess_SUES-200.py
 ```
 ## <a id="train-and-test"></a> 🚀 Train and Test
 
-For University-1652 Dataset
+University-1652 Dataset Configuration
 ```
-Dataset Path
-# 1. U1652_dro.py
+1. Set Dataset Paths
+# 1. U1652_dro.py — Drone-view data loader
 root = '/your/path/University-1652'
-# 2. U1652_sat.py 
+
+# 2. U1652_sat.py — Satellite-view data loader
 root = '/your/path/University-1652'
-# 3. train.py
+
+# 3. train.py — Global dataset directory (used for training/testing)
 parser.add_argument(
     '--data_dir',
     default='/your/path/University-1652',
     type=str
 )
 ```
-Train and Test
-train.py, with --only_test = False.
-Test: run train.py, with --only_test = True, and choose the model in --ckpt_path.
+2. Training and Testing
 ```
-For SUES-200 Dataset
+python train.py --only_test False
+
+python train.py --only_test True --ckpt_path /path/to/your/checkpoint.pth
+
+SUES-200 Dataset Configuration
 ```
 The remaining code is scheduled to be updated in the near future.
 ```
-For DenseUAV Dataset
+DenseUAV Dataset Configuration
 ```
 The remaining code is scheduled to be updated in the near future.
 ```
