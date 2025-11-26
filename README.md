@@ -49,7 +49,7 @@ run process_data/porcess_SUES-200.py
 ```
 ## <a id="train-and-test"></a> 🚀 Train and Test
 
-University-1652 Dataset Configuration
+### University-1652 Dataset Configuration
 ```
 1. Set Dataset Paths
 # 1. U1652_dro.py — Drone-view data loader
@@ -64,12 +64,13 @@ parser.add_argument(
     default='/your/path/University-1652',
     type=str
 )
-```
+
 2. Training and Testing
-```
+
 python train.py --only_test False
 
 python train.py --only_test True --ckpt_path /path/to/your/checkpoint.pth
+
 ```
 SUES-200 Dataset Configuration
 ```
