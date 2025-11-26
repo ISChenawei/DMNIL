@@ -53,15 +53,15 @@ run process_data/porcess_SUES-200.py
 ```
 1. Set Dataset Paths
 # 1. U1652_dro.py — Drone-view data loader
-root = '/your/path/University-1652'
+root = '/your/path'
 
 # 2. U1652_sat.py — Satellite-view data loader
-root = '/your/path/University-1652'
+root = '/your/path'
 
 # 3. train.py — Global dataset directory (used for testing)
 parser.add_argument(
     '--data_dir',
-    default='/your/path/University-1652',
+    default='/your/path',
     type=str
 )
 
