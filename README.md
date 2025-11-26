@@ -58,7 +58,7 @@ root = '/your/path/University-1652'
 # 2. U1652_sat.py — Satellite-view data loader
 root = '/your/path/University-1652'
 
-# 3. train.py — Global dataset directory (used for training/testing)
+# 3. train.py — Global dataset directory (used for testing)
 parser.add_argument(
     '--data_dir',
     default='/your/path/University-1652',
