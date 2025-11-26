@@ -37,16 +37,6 @@ Please prepare [University-1652](https://github.com/layumi/University1652-Baseli
 
 ### Process University-1652 Dataset  
 ```
-# 1. U1652_dro.py
-root = '/your/path/University-1652'
-# 2. U1652_sat.py 
-root = '/your/path/University-1652'
-# 3. train/test
-parser.add_argument(
-    '--data_dir',
-    default='/your/path/University-1652',
-    type=str
-)
 run process_data/porcess_U1652.py
 ```
 ### Process SUES-200 Dataset  
@@ -61,7 +51,19 @@ run process_data/porcess_SUES-200.py
 
 For University-1652 Dataset
 ```
-Train: run train.py, with --only_test = False.
+Dataset Path
+# 1. U1652_dro.py
+root = '/your/path/University-1652'
+# 2. U1652_sat.py 
+root = '/your/path/University-1652'
+# 3. train.py
+parser.add_argument(
+    '--data_dir',
+    default='/your/path/University-1652',
+    type=str
+)
+Train
+train.py, with --only_test = False.
 
 Test: run train.py, with --only_test = True, and choose the model in --ckpt_path.
 ```
