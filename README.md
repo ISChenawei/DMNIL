@@ -32,8 +32,8 @@ The current version of the repository can cover the experiments reported in the 
 - [Citation](#citation)
 
 ## <a id="news"></a> 🔥 News
-- [Oct  28, 2025]: We released the **DMNIL** model trained on University-1652 and its pre-trained weights.
-- [Oct  28, 2025]: We released the **data preprocessing scripts** for University-1652, SUES-200, and DenseUAV.
+- [Sep  14, 2025]: We released the **DMNIL** model trained on University-1652 and its pre-trained weights.
+- [Sep  13, 2025]: We released the **data preprocessing scripts** for University-1652, SUES-200, and DenseUAV.
 
 ## <a id="dataset-access"></a> 💾 Dataset Access
 Please prepare [University-1652](https://github.com/layumi/University1652-Baseline), [SUES-200](https://github.com/Reza-Zhu/SUES-200-Benchmark), [DenseUAV](https://github.com/Dmmm1997/DenseUAV)
