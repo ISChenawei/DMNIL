@@ -87,7 +87,9 @@ The remaining code is scheduled to be updated in the near future.
 ## <a id="pre-trained-checkpoints"></a> 🤗 Pre-trained Checkpoints
 We provide the trained models in the link below:
 
-https://pan.baidu.com/s/151fhP4kwW4rTXqjRRlSM6Q 提取码: sm8s 
+Baidu Netdisk Link: [https://pan.baidu.com/s/151fhP4kwW4rTXqjRRlSM6Q] 提取码: sm8s 
+
+Google Drive  Link: [https://drive.google.com/drive/folders/1drUHVCt9hPtPN0b7RmWCT0Wigd6YdJgb?usp=drive_link]
 
 We will update this repository for better clarity ASAP, current version is for quick research for researchers interested in the cross-view geo-localization task.
 
