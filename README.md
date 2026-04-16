@@ -114,8 +114,11 @@ This code is based on previous work CDIKTNet. If you find this code useful for y
 @Article{chen2025limited,
 title={From Limited Labels to Open Domains: An Efficient Learning Method for Drone-view Geo-Localization},
 author={Chen, Zhongwei, Yang, Zhao-Xu, Rong, Hai-Jun, Lang, Jiawei, Li, Guoqi},
-journal={arXiv preprint arXiv:2503.07520},
-year={2025}
+journal={IEEE Transactions on Multimedia}, 
+volume={},
+number={},
+pages={1-13},
+year={2026}
 }
 ```
 ## <a id="acknowledgments"></a> 🙏 Acknowledgments
