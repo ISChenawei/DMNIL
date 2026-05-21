@@ -32,7 +32,7 @@ The current version of the repository can cover the experiments reported in the 
 - [Citation](#citation)
 
 ## <a id="news"></a> 🔥 News
-- [May  21, 2026]: MEAN is accepted by TNNLS'25 🎉
+- [May  21, 2026]: **DMNIL** is accepted by **TNNLS'26** 🎉
 - [Sep  23, 2025]: We released the **DMNIL** model trained on University-1652 and its pre-trained weights.
 - [Sep  22, 2025]: We released the **data preprocessing scripts** for University-1652, SUES-200, and DenseUAV.
 
