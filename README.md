@@ -102,12 +102,16 @@ This project is licensed under the [Apache 2.0 license](LICENSE).
  If you find this code useful for your research, please cite our papers.
 
 ```bibtex
-@article{chen2025without,
-  title={Without Paired Labeled Data: End-to-End Self-Supervised Method for Drone-View Geo-Localization},
-  author={Chen, Zhongwei, Yang, Zhao-Xu, Rong, Hai-Jun, Guoqi Li},
-  journal={arXiv preprint arXiv:2502.11381},
-  year={2025}
-}
+@ARTICLE{11540350,
+  author={Chen, Zhongwei and Yang, Zhao-Xu and Rong, Hai-Jun and Li, Guoqi},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Without Paired Labeled Data: End-to-End Self-Supervised Learning for Drone-View Geo-Localization}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Drones;Learning (artificial intelligence);Satellites;Labeling;Self-supervised learning;Modeling;Educational institutions;Training;Location awareness;Memory;Drone-view geo-localization (DVGL);dynamic hierarchical memory learning (DHML);information consistency evolution learning (ICEL);self-supervised learning},
+  doi={10.1109/TNNLS.2026.3696684}}
 ```
 This code is based on previous work CDIKTNet. If you find this code useful for your research, please cite our papers.
 
