@@ -1,4 +1,4 @@
-## DMNIL 2025 [[paper](https://arxiv.org/abs/2502.11381)][[model](#pre-trained-checkpoints)] [[Cite](#Citation)]
+## DMNIL 2025 [[paper](https://ieeexplore.ieee.org/document/11540350)][[model](#pre-trained-checkpoints)] [[Cite](#Citation)]
 <p align="center">
   <p align="left">
     <img src="DMNIL/figure/2.png" alt="Description of the image" style="width:50%;">
