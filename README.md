@@ -88,7 +88,7 @@ The remaining code is scheduled to be updated in the near future.
 ## <a id="pre-trained-checkpoints"></a> 🤗 Pre-trained Checkpoints
 We provide the trained models in the link below:
 
-Baidu Netdisk Link: [https://pan.baidu.com/s/151fhP4kwW4rTXqjRRlSM6Q] 提取码: sm8s 
+Baidu Netdisk Link: [https://pan.baidu.com/s/13ZKLsXgkQy9Igd7r-ZpUsQ?pwd=6666] 提取码: 6666 
 
 Google Drive  Link: [https://drive.google.com/drive/folders/1drUHVCt9hPtPN0b7RmWCT0Wigd6YdJgb?usp=drive_link]
 
