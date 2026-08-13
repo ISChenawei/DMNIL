@@ -82,9 +82,6 @@ pre-trained weights, and preprocessing utilities for University-1652, SUES-200, 
 - [x] Release the University-1652 training and evaluation code.
 - [x] Release the University-1652 pre-trained checkpoint.
 - [x] Release preprocessing scripts for University-1652, SUES-200, and DenseUAV.
-- [ ] Release complete SUES-200 training configurations.
-- [ ] Release complete DenseUAV training configurations.
-- [ ] Add a pinned environment file and single-GPU support.
 
 ## <a id="installation"></a>🛠️ Installation
 
