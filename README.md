@@ -49,7 +49,7 @@ pre-trained weights, and preprocessing utilities for University-1652, SUES-200, 
 - **May 21, 2026:** DMNIL was accepted by **IEEE TNNLS 2026**. 🎉
 - **September 23, 2025:** The University-1652 model and pre-trained weights were released.
 - **September 22, 2025:** Data preprocessing scripts for three DVGL datasets were released.
-
+- **February 17, 2025**: Our  [[arXiv preprint](https://arxiv.org/abs/2502.11381)] was released.
 ---
 
 ## <a id="table-of-contents"></a>📚 Table of Contents
